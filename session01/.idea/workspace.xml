@@ -33,9 +33,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e499791-edb6-48c9-93ef-cad5d86f087d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/02datatypes.cc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/03math.cc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04loops.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/05while.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06for.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/07sumandprod.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/08float.cc" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -83,14 +84,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04loops.cc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04loops.cc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04loops.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05while.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05while.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06for.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06for.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07sumandprod.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07sumandprod.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08float.cc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08float.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,6 +150,10 @@
         <option value="$PROJECT_DIR$/02datatypes.cc" />
         <option value="$PROJECT_DIR$/03math.cc" />
         <option value="$PROJECT_DIR$/04loops.cc" />
+        <option value="$PROJECT_DIR$/05while.cc" />
+        <option value="$PROJECT_DIR$/06for.cc" />
+        <option value="$PROJECT_DIR$/07sumandprod.cc" />
+        <option value="$PROJECT_DIR$/08float.cc" />
       </list>
     </option>
   </component>
@@ -156,6 +203,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="ObjectiveC" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -193,12 +245,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516666228421</updated>
-      <workItem from="1516666230693" duration="2302000" />
+      <workItem from="1516666230693" duration="5131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2302000" />
+    <option name="totallyTimeSpent" value="5131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -282,11 +334,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04loops.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05while.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06for.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07sumandprod.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08float.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
