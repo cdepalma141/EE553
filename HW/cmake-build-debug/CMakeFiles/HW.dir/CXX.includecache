@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/HW/HW1a.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/HW/HW1c.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/HW/HW1d.cpp
+iostream
+-
+iomanip
+-
+
+/Users/connordepalma/Documents/Git/EE553/HW/HW1e.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/HW/main.cpp
+iostream
+-
+
