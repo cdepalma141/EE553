@@ -1,4 +1,15 @@
 "/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/connordepalma/Documents/Git/EE553/HW2
 -- Configuring done
+CMake Error at CMakeLists.txt:9 (add_executable):
+  Cannot find source file:
+
+    HW2e.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: HW2e
+CMake Error: Cannot determine link language for target "HW2e".
 -- Generating done
 -- Build files have been written to: /Users/connordepalma/Documents/Git/EE553/HW2/cmake-build-debug

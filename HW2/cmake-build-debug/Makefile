@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named HW2e
+
+# Build rule for target.
+HW2e: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW2e
+.PHONY : HW2e
+
+# fast build rule for target.
+HW2e/fast:
+	$(MAKE) -f CMakeFiles/HW2e.dir/build.make CMakeFiles/HW2e.dir/build
+.PHONY : HW2e/fast
+
+#=============================================================================
 # Target rules for targets named HW2c
 
 # Build rule for target.
@@ -242,10 +255,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... HW2e"
+	@echo "... edit_cache"
 	@echo "... HW2c"
 	@echo "... HW2b"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... HW2"
 	@echo "... HW2b.o"
 	@echo "... HW2b.i"

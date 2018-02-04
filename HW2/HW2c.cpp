@@ -1,6 +1,6 @@
 /*
 
- HW2e - Functions
+ HW2c - Multiple primes
 
  Connor DePalma.
 
@@ -60,8 +60,5 @@ int main(){
     cin >> b;
 
     cout << "There are " << countPrimes(a,b) << " prime numbers in that range" << '\n';
-
-
-
-
+    
 }

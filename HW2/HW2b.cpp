@@ -35,14 +35,6 @@ bool isPrime(unsigned long long p){
     return p;
 }
 
-
-
-
-
-
-
-
-
 int main(){
 
     unsigned long long  a;
@@ -50,13 +42,9 @@ int main(){
     cin >> a;
 
     if (isPrime(a) == 1)
-        cout << "True" << '\n';
+        cout << "Prime" << '\n';
 
     else
-        cout << "False" << '\n';
-
-
-
-
+        cout << "Not Prime" << '\n';
 
 }
