@@ -26,7 +26,7 @@ int main() {
 
 
     */
-
+        // type promotion
     for (float i = 0; i <= 10; i ++)
         cout << i << " ";
              cout<< '\n';

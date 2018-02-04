@@ -64,7 +64,7 @@ int main() {
 
     cout << "Square root of 6 times S2: " << sqrt(6 * s2) << '\n';
 
-    cout << "the decreasing summation seems to be more accurate as it is closer to 3.14159...";
+    cout << "the decreasing summation (S2) seems to be more accurate as it is closer to 3.14159...\n";
 
 
     return 0;

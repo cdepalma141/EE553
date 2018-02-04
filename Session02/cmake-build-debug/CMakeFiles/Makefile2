@@ -60,13 +60,346 @@ CMAKE_SOURCE_DIR = /Users/connordepalma/Documents/Git/EE553/Session02
 CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/06strings.dir
+
+# All Build rule for target.
+CMakeFiles/06strings.dir/all:
+	$(MAKE) -f CMakeFiles/06strings.dir/build.make CMakeFiles/06strings.dir/depend
+	$(MAKE) -f CMakeFiles/06strings.dir/build.make CMakeFiles/06strings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 06strings"
+.PHONY : CMakeFiles/06strings.dir/all
+
+# Include target in all.
+all: CMakeFiles/06strings.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/06strings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/06strings.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/06strings.dir/rule
+
+# Convenience name for target.
+06strings: CMakeFiles/06strings.dir/rule
+
+.PHONY : 06strings
+
+# clean rule for target.
+CMakeFiles/06strings.dir/clean:
+	$(MAKE) -f CMakeFiles/06strings.dir/build.make CMakeFiles/06strings.dir/clean
+.PHONY : CMakeFiles/06strings.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/06strings.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/07io.dir
+
+# All Build rule for target.
+CMakeFiles/07io.dir/all:
+	$(MAKE) -f CMakeFiles/07io.dir/build.make CMakeFiles/07io.dir/depend
+	$(MAKE) -f CMakeFiles/07io.dir/build.make CMakeFiles/07io.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 07io"
+.PHONY : CMakeFiles/07io.dir/all
+
+# Include target in all.
+all: CMakeFiles/07io.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/07io.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/07io.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/07io.dir/rule
+
+# Convenience name for target.
+07io: CMakeFiles/07io.dir/rule
+
+.PHONY : 07io
+
+# clean rule for target.
+CMakeFiles/07io.dir/clean:
+	$(MAKE) -f CMakeFiles/07io.dir/build.make CMakeFiles/07io.dir/clean
+.PHONY : CMakeFiles/07io.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/07io.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/10pointerstofunction.dir
+
+# All Build rule for target.
+CMakeFiles/10pointerstofunction.dir/all:
+	$(MAKE) -f CMakeFiles/10pointerstofunction.dir/build.make CMakeFiles/10pointerstofunction.dir/depend
+	$(MAKE) -f CMakeFiles/10pointerstofunction.dir/build.make CMakeFiles/10pointerstofunction.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 10pointerstofunction"
+.PHONY : CMakeFiles/10pointerstofunction.dir/all
+
+# Include target in all.
+all: CMakeFiles/10pointerstofunction.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/10pointerstofunction.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/10pointerstofunction.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/10pointerstofunction.dir/rule
+
+# Convenience name for target.
+10pointerstofunction: CMakeFiles/10pointerstofunction.dir/rule
+
+.PHONY : 10pointerstofunction
+
+# clean rule for target.
+CMakeFiles/10pointerstofunction.dir/clean:
+	$(MAKE) -f CMakeFiles/10pointerstofunction.dir/build.make CMakeFiles/10pointerstofunction.dir/clean
+.PHONY : CMakeFiles/10pointerstofunction.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/10pointerstofunction.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/05functions.dir
+
+# All Build rule for target.
+CMakeFiles/05functions.dir/all:
+	$(MAKE) -f CMakeFiles/05functions.dir/build.make CMakeFiles/05functions.dir/depend
+	$(MAKE) -f CMakeFiles/05functions.dir/build.make CMakeFiles/05functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 05functions"
+.PHONY : CMakeFiles/05functions.dir/all
+
+# Include target in all.
+all: CMakeFiles/05functions.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/05functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/05functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/05functions.dir/rule
+
+# Convenience name for target.
+05functions: CMakeFiles/05functions.dir/rule
+
+.PHONY : 05functions
+
+# clean rule for target.
+CMakeFiles/05functions.dir/clean:
+	$(MAKE) -f CMakeFiles/05functions.dir/build.make CMakeFiles/05functions.dir/clean
+.PHONY : CMakeFiles/05functions.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/05functions.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/02bfunctions.dir
+
+# All Build rule for target.
+CMakeFiles/02bfunctions.dir/all:
+	$(MAKE) -f CMakeFiles/02bfunctions.dir/build.make CMakeFiles/02bfunctions.dir/depend
+	$(MAKE) -f CMakeFiles/02bfunctions.dir/build.make CMakeFiles/02bfunctions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 02bfunctions"
+.PHONY : CMakeFiles/02bfunctions.dir/all
+
+# Include target in all.
+all: CMakeFiles/02bfunctions.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/02bfunctions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/02bfunctions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/02bfunctions.dir/rule
+
+# Convenience name for target.
+02bfunctions: CMakeFiles/02bfunctions.dir/rule
+
+.PHONY : 02bfunctions
+
+# clean rule for target.
+CMakeFiles/02bfunctions.dir/clean:
+	$(MAKE) -f CMakeFiles/02bfunctions.dir/build.make CMakeFiles/02bfunctions.dir/clean
+.PHONY : CMakeFiles/02bfunctions.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/02bfunctions.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/03loopopt.dir
+
+# All Build rule for target.
+CMakeFiles/03loopopt.dir/all:
+	$(MAKE) -f CMakeFiles/03loopopt.dir/build.make CMakeFiles/03loopopt.dir/depend
+	$(MAKE) -f CMakeFiles/03loopopt.dir/build.make CMakeFiles/03loopopt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 03loopopt"
+.PHONY : CMakeFiles/03loopopt.dir/all
+
+# Include target in all.
+all: CMakeFiles/03loopopt.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/03loopopt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/03loopopt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/03loopopt.dir/rule
+
+# Convenience name for target.
+03loopopt: CMakeFiles/03loopopt.dir/rule
+
+.PHONY : 03loopopt
+
+# clean rule for target.
+CMakeFiles/03loopopt.dir/clean:
+	$(MAKE) -f CMakeFiles/03loopopt.dir/build.make CMakeFiles/03loopopt.dir/clean
+.PHONY : CMakeFiles/03loopopt.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/03loopopt.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/09returningmultiple.dir
+
+# All Build rule for target.
+CMakeFiles/09returningmultiple.dir/all:
+	$(MAKE) -f CMakeFiles/09returningmultiple.dir/build.make CMakeFiles/09returningmultiple.dir/depend
+	$(MAKE) -f CMakeFiles/09returningmultiple.dir/build.make CMakeFiles/09returningmultiple.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 09returningmultiple"
+.PHONY : CMakeFiles/09returningmultiple.dir/all
+
+# Include target in all.
+all: CMakeFiles/09returningmultiple.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/09returningmultiple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/09returningmultiple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/09returningmultiple.dir/rule
+
+# Convenience name for target.
+09returningmultiple: CMakeFiles/09returningmultiple.dir/rule
+
+.PHONY : 09returningmultiple
+
+# clean rule for target.
+CMakeFiles/09returningmultiple.dir/clean:
+	$(MAKE) -f CMakeFiles/09returningmultiple.dir/build.make CMakeFiles/09returningmultiple.dir/clean
+.PHONY : CMakeFiles/09returningmultiple.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/09returningmultiple.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/02functions.dir
+
+# All Build rule for target.
+CMakeFiles/02functions.dir/all:
+	$(MAKE) -f CMakeFiles/02functions.dir/build.make CMakeFiles/02functions.dir/depend
+	$(MAKE) -f CMakeFiles/02functions.dir/build.make CMakeFiles/02functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 02functions"
+.PHONY : CMakeFiles/02functions.dir/all
+
+# Include target in all.
+all: CMakeFiles/02functions.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/02functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/02functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/02functions.dir/rule
+
+# Convenience name for target.
+02functions: CMakeFiles/02functions.dir/rule
+
+.PHONY : 02functions
+
+# clean rule for target.
+CMakeFiles/02functions.dir/clean:
+	$(MAKE) -f CMakeFiles/02functions.dir/build.make CMakeFiles/02functions.dir/clean
+.PHONY : CMakeFiles/02functions.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/02functions.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/01reviewfloat.dir
+
+# All Build rule for target.
+CMakeFiles/01reviewfloat.dir/all:
+	$(MAKE) -f CMakeFiles/01reviewfloat.dir/build.make CMakeFiles/01reviewfloat.dir/depend
+	$(MAKE) -f CMakeFiles/01reviewfloat.dir/build.make CMakeFiles/01reviewfloat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 01reviewfloat"
+.PHONY : CMakeFiles/01reviewfloat.dir/all
+
+# Include target in all.
+all: CMakeFiles/01reviewfloat.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/01reviewfloat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/01reviewfloat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/01reviewfloat.dir/rule
+
+# Convenience name for target.
+01reviewfloat: CMakeFiles/01reviewfloat.dir/rule
+
+.PHONY : 01reviewfloat
+
+# clean rule for target.
+CMakeFiles/01reviewfloat.dir/clean:
+	$(MAKE) -f CMakeFiles/01reviewfloat.dir/build.make CMakeFiles/01reviewfloat.dir/clean
+.PHONY : CMakeFiles/01reviewfloat.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/01reviewfloat.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Session02.dir
 
 # All Build rule for target.
 CMakeFiles/Session02.dir/all:
 	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/depend
 	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Session02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target Session02"
 .PHONY : CMakeFiles/Session02.dir/all
 
 # Include target in all.
@@ -76,7 +409,7 @@ all: CMakeFiles/Session02.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Session02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Session02.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Session02.dir/rule

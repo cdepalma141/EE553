@@ -1,3 +1,12 @@
-/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/06strings.dir
 /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/07io.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/10pointerstofunction.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/05functions.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/02bfunctions.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/03loopopt.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/09returningmultiple.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/02functions.dir
+/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/01reviewfloat.dir
 /Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles/Session02.dir

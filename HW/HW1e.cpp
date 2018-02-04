@@ -25,7 +25,6 @@ using namespace std;
 int main() {
 
     int a = 0;
-    int i = 0;
     double f = 1;
     double g = 1;
     double d = 1;
@@ -40,7 +39,7 @@ int main() {
 
     }
 
-    cout << "10! is:" << setprecision(15) << g <<'\n';
+    cout << "10! is: " << setprecision(15) << g <<'\n';
 
     for(int t = 0; t <= (20-1); t++){
 
@@ -49,7 +48,7 @@ int main() {
 
     }
 
-    cout << "20! is:" << setprecision(15) << d <<'\n';
+    cout << "20! is: " << setprecision(15) << d <<'\n';
 
     for(int q = 0; q <= (30-1); q++){
 
@@ -58,20 +57,20 @@ int main() {
 
     }
 
-    cout <<  "30! is:" << setprecision(15) << s<<'\n';
+    cout <<  "30! is: " << setprecision(15) << s<<'\n';
 
 
 
     cout << "Try any number: \n";
     cin  >> a;
 
-    for(i; i <= (a-1); i++){
+    for(int i = 0; i <= (a-1); i++){
 
         f = f*(a-i);
 
 
     }
 
-    cout << a << "! is: " << setprecision(15) << f;
+    cout << a << "! is: " << setprecision(15) << f << '\n';
 
 }

@@ -64,6 +64,7 @@ int main() {
 
     cout << "Difference as Double: " << setprecision (15) << sum1d - sum2d << '\n';
 
+    cout << "since the difference as double is a much smaller value it is more accurate" << '\n';
 
 
     return 0;

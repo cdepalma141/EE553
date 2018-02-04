@@ -28,7 +28,7 @@ int main() {
     }
 
 
-    cout << "Using a loop: " << sum;
+    cout << "Using a loop: " << sum << '\n';
 
     return 0;
 }

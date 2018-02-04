@@ -4,29 +4,34 @@ using namespace std;
 
 int main() {
 
-    int a = 0;
+    cout << sizeof(char) << '\n';
+    cout << sizeof(short) << '\n';
+    cout << sizeof(int) << '\n';
+    cout << sizeof(long) << '\n';
+    cout << sizeof(long long) << '\n';
+
+    float e;
+    double w;
+    int g[ 10 ];
+    double h[ 20 ];
+    char i[ 80 ];
+    double j[ 3 ][ 4 ];
+    cout << sizeof(e) << '\n';
+    cout << sizeof(w) << '\n';
+    cout << sizeof(g) << '\n';
+    cout << sizeof(h) << '\n';
+    cout << sizeof(i) << '\n';
+    cout << sizeof(j) << '\n';
 
 
+    double f = (int)5.0 / 2.0;
 
-    cout << "Please pick a number \n";
+    char c = 'A'+ 1;
 
-    cin >> a;
+    double q = int(5.0) / 2.0;
 
-    while (a != 1){
+    cout << f << '\n';
+    cout << c << '\n';
+    cout << q << '\n';
 
-        if ((a%2) == 1) {
-
-            a = a*3+1;
-
-        }
-
-        else {
-            a = a/2;
-        }
-
-    }
-
-    cout << "Final Value: " << a;
-
-    return 0;
 }

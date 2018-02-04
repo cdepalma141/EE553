@@ -35,7 +35,7 @@ int main() {
 
     }
 
-    cout << "Final Value: " << a;
+    cout << "Final Value: " << a << '\n';
 
     return 0;
 }

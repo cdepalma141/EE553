@@ -81,17 +81,407 @@ CMakeFiles/Session02.dir/main.cpp.o.provides: CMakeFiles/Session02.dir/main.cpp.
 CMakeFiles/Session02.dir/main.cpp.o.provides.build: CMakeFiles/Session02.dir/main.cpp.o
 
 
+CMakeFiles/Session02.dir/bisection.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/bisection.cpp.o: ../bisection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Session02.dir/bisection.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/bisection.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/bisection.cpp
+
+CMakeFiles/Session02.dir/bisection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/bisection.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/bisection.cpp > CMakeFiles/Session02.dir/bisection.cpp.i
+
+CMakeFiles/Session02.dir/bisection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/bisection.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/bisection.cpp -o CMakeFiles/Session02.dir/bisection.cpp.s
+
+CMakeFiles/Session02.dir/bisection.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/bisection.cpp.o.requires
+
+CMakeFiles/Session02.dir/bisection.cpp.o.provides: CMakeFiles/Session02.dir/bisection.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/bisection.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/bisection.cpp.o.provides
+
+CMakeFiles/Session02.dir/bisection.cpp.o.provides.build: CMakeFiles/Session02.dir/bisection.cpp.o
+
+
+CMakeFiles/Session02.dir/00reveiw.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/00reveiw.cpp.o: ../00reveiw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Session02.dir/00reveiw.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/00reveiw.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/00reveiw.cpp
+
+CMakeFiles/Session02.dir/00reveiw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/00reveiw.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/00reveiw.cpp > CMakeFiles/Session02.dir/00reveiw.cpp.i
+
+CMakeFiles/Session02.dir/00reveiw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/00reveiw.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/00reveiw.cpp -o CMakeFiles/Session02.dir/00reveiw.cpp.s
+
+CMakeFiles/Session02.dir/00reveiw.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/00reveiw.cpp.o.requires
+
+CMakeFiles/Session02.dir/00reveiw.cpp.o.provides: CMakeFiles/Session02.dir/00reveiw.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/00reveiw.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/00reveiw.cpp.o.provides
+
+CMakeFiles/Session02.dir/00reveiw.cpp.o.provides.build: CMakeFiles/Session02.dir/00reveiw.cpp.o
+
+
+CMakeFiles/Session02.dir/01reviewfloat.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/01reviewfloat.cpp.o: ../01reviewfloat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Session02.dir/01reviewfloat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/01reviewfloat.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/01reviewfloat.cpp
+
+CMakeFiles/Session02.dir/01reviewfloat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/01reviewfloat.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/01reviewfloat.cpp > CMakeFiles/Session02.dir/01reviewfloat.cpp.i
+
+CMakeFiles/Session02.dir/01reviewfloat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/01reviewfloat.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/01reviewfloat.cpp -o CMakeFiles/Session02.dir/01reviewfloat.cpp.s
+
+CMakeFiles/Session02.dir/01reviewfloat.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/01reviewfloat.cpp.o.requires
+
+CMakeFiles/Session02.dir/01reviewfloat.cpp.o.provides: CMakeFiles/Session02.dir/01reviewfloat.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/01reviewfloat.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/01reviewfloat.cpp.o.provides
+
+CMakeFiles/Session02.dir/01reviewfloat.cpp.o.provides.build: CMakeFiles/Session02.dir/01reviewfloat.cpp.o
+
+
+CMakeFiles/Session02.dir/01breviewfloat.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/01breviewfloat.cpp.o: ../01breviewfloat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Session02.dir/01breviewfloat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/01breviewfloat.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/01breviewfloat.cpp
+
+CMakeFiles/Session02.dir/01breviewfloat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/01breviewfloat.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/01breviewfloat.cpp > CMakeFiles/Session02.dir/01breviewfloat.cpp.i
+
+CMakeFiles/Session02.dir/01breviewfloat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/01breviewfloat.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/01breviewfloat.cpp -o CMakeFiles/Session02.dir/01breviewfloat.cpp.s
+
+CMakeFiles/Session02.dir/01breviewfloat.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/01breviewfloat.cpp.o.requires
+
+CMakeFiles/Session02.dir/01breviewfloat.cpp.o.provides: CMakeFiles/Session02.dir/01breviewfloat.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/01breviewfloat.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/01breviewfloat.cpp.o.provides
+
+CMakeFiles/Session02.dir/01breviewfloat.cpp.o.provides.build: CMakeFiles/Session02.dir/01breviewfloat.cpp.o
+
+
+CMakeFiles/Session02.dir/02functions.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/02functions.cpp.o: ../02functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Session02.dir/02functions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/02functions.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/02functions.cpp
+
+CMakeFiles/Session02.dir/02functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/02functions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/02functions.cpp > CMakeFiles/Session02.dir/02functions.cpp.i
+
+CMakeFiles/Session02.dir/02functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/02functions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/02functions.cpp -o CMakeFiles/Session02.dir/02functions.cpp.s
+
+CMakeFiles/Session02.dir/02functions.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/02functions.cpp.o.requires
+
+CMakeFiles/Session02.dir/02functions.cpp.o.provides: CMakeFiles/Session02.dir/02functions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/02functions.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/02functions.cpp.o.provides
+
+CMakeFiles/Session02.dir/02functions.cpp.o.provides.build: CMakeFiles/Session02.dir/02functions.cpp.o
+
+
+CMakeFiles/Session02.dir/02bfunctions.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/02bfunctions.cpp.o: ../02bfunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Session02.dir/02bfunctions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/02bfunctions.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/02bfunctions.cpp
+
+CMakeFiles/Session02.dir/02bfunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/02bfunctions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/02bfunctions.cpp > CMakeFiles/Session02.dir/02bfunctions.cpp.i
+
+CMakeFiles/Session02.dir/02bfunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/02bfunctions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/02bfunctions.cpp -o CMakeFiles/Session02.dir/02bfunctions.cpp.s
+
+CMakeFiles/Session02.dir/02bfunctions.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/02bfunctions.cpp.o.requires
+
+CMakeFiles/Session02.dir/02bfunctions.cpp.o.provides: CMakeFiles/Session02.dir/02bfunctions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/02bfunctions.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/02bfunctions.cpp.o.provides
+
+CMakeFiles/Session02.dir/02bfunctions.cpp.o.provides.build: CMakeFiles/Session02.dir/02bfunctions.cpp.o
+
+
+CMakeFiles/Session02.dir/03loopopt.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/03loopopt.cpp.o: ../03loopopt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Session02.dir/03loopopt.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/03loopopt.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/03loopopt.cpp
+
+CMakeFiles/Session02.dir/03loopopt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/03loopopt.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/03loopopt.cpp > CMakeFiles/Session02.dir/03loopopt.cpp.i
+
+CMakeFiles/Session02.dir/03loopopt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/03loopopt.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/03loopopt.cpp -o CMakeFiles/Session02.dir/03loopopt.cpp.s
+
+CMakeFiles/Session02.dir/03loopopt.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/03loopopt.cpp.o.requires
+
+CMakeFiles/Session02.dir/03loopopt.cpp.o.provides: CMakeFiles/Session02.dir/03loopopt.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/03loopopt.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/03loopopt.cpp.o.provides
+
+CMakeFiles/Session02.dir/03loopopt.cpp.o.provides.build: CMakeFiles/Session02.dir/03loopopt.cpp.o
+
+
+CMakeFiles/Session02.dir/04functions.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/04functions.cpp.o: ../04functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Session02.dir/04functions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/04functions.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/04functions.cpp
+
+CMakeFiles/Session02.dir/04functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/04functions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/04functions.cpp > CMakeFiles/Session02.dir/04functions.cpp.i
+
+CMakeFiles/Session02.dir/04functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/04functions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/04functions.cpp -o CMakeFiles/Session02.dir/04functions.cpp.s
+
+CMakeFiles/Session02.dir/04functions.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/04functions.cpp.o.requires
+
+CMakeFiles/Session02.dir/04functions.cpp.o.provides: CMakeFiles/Session02.dir/04functions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/04functions.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/04functions.cpp.o.provides
+
+CMakeFiles/Session02.dir/04functions.cpp.o.provides.build: CMakeFiles/Session02.dir/04functions.cpp.o
+
+
+CMakeFiles/Session02.dir/05inlineornot.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/05inlineornot.cpp.o: ../05inlineornot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Session02.dir/05inlineornot.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/05inlineornot.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/05inlineornot.cpp
+
+CMakeFiles/Session02.dir/05inlineornot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/05inlineornot.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/05inlineornot.cpp > CMakeFiles/Session02.dir/05inlineornot.cpp.i
+
+CMakeFiles/Session02.dir/05inlineornot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/05inlineornot.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/05inlineornot.cpp -o CMakeFiles/Session02.dir/05inlineornot.cpp.s
+
+CMakeFiles/Session02.dir/05inlineornot.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/05inlineornot.cpp.o.requires
+
+CMakeFiles/Session02.dir/05inlineornot.cpp.o.provides: CMakeFiles/Session02.dir/05inlineornot.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/05inlineornot.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/05inlineornot.cpp.o.provides
+
+CMakeFiles/Session02.dir/05inlineornot.cpp.o.provides.build: CMakeFiles/Session02.dir/05inlineornot.cpp.o
+
+
+CMakeFiles/Session02.dir/05functions.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/05functions.cpp.o: ../05functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Session02.dir/05functions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/05functions.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/05functions.cpp
+
+CMakeFiles/Session02.dir/05functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/05functions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/05functions.cpp > CMakeFiles/Session02.dir/05functions.cpp.i
+
+CMakeFiles/Session02.dir/05functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/05functions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/05functions.cpp -o CMakeFiles/Session02.dir/05functions.cpp.s
+
+CMakeFiles/Session02.dir/05functions.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/05functions.cpp.o.requires
+
+CMakeFiles/Session02.dir/05functions.cpp.o.provides: CMakeFiles/Session02.dir/05functions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/05functions.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/05functions.cpp.o.provides
+
+CMakeFiles/Session02.dir/05functions.cpp.o.provides.build: CMakeFiles/Session02.dir/05functions.cpp.o
+
+
+CMakeFiles/Session02.dir/06strings.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/06strings.cpp.o: ../06strings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Session02.dir/06strings.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/06strings.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/06strings.cpp
+
+CMakeFiles/Session02.dir/06strings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/06strings.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/06strings.cpp > CMakeFiles/Session02.dir/06strings.cpp.i
+
+CMakeFiles/Session02.dir/06strings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/06strings.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/06strings.cpp -o CMakeFiles/Session02.dir/06strings.cpp.s
+
+CMakeFiles/Session02.dir/06strings.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/06strings.cpp.o.requires
+
+CMakeFiles/Session02.dir/06strings.cpp.o.provides: CMakeFiles/Session02.dir/06strings.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/06strings.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/06strings.cpp.o.provides
+
+CMakeFiles/Session02.dir/06strings.cpp.o.provides.build: CMakeFiles/Session02.dir/06strings.cpp.o
+
+
+CMakeFiles/Session02.dir/07io.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/07io.cpp.o: ../07io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Session02.dir/07io.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/07io.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/07io.cpp
+
+CMakeFiles/Session02.dir/07io.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/07io.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/07io.cpp > CMakeFiles/Session02.dir/07io.cpp.i
+
+CMakeFiles/Session02.dir/07io.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/07io.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/07io.cpp -o CMakeFiles/Session02.dir/07io.cpp.s
+
+CMakeFiles/Session02.dir/07io.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/07io.cpp.o.requires
+
+CMakeFiles/Session02.dir/07io.cpp.o.provides: CMakeFiles/Session02.dir/07io.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/07io.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/07io.cpp.o.provides
+
+CMakeFiles/Session02.dir/07io.cpp.o.provides.build: CMakeFiles/Session02.dir/07io.cpp.o
+
+
+CMakeFiles/Session02.dir/08passbyref.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/08passbyref.cpp.o: ../08passbyref.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Session02.dir/08passbyref.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/08passbyref.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/08passbyref.cpp
+
+CMakeFiles/Session02.dir/08passbyref.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/08passbyref.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/08passbyref.cpp > CMakeFiles/Session02.dir/08passbyref.cpp.i
+
+CMakeFiles/Session02.dir/08passbyref.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/08passbyref.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/08passbyref.cpp -o CMakeFiles/Session02.dir/08passbyref.cpp.s
+
+CMakeFiles/Session02.dir/08passbyref.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/08passbyref.cpp.o.requires
+
+CMakeFiles/Session02.dir/08passbyref.cpp.o.provides: CMakeFiles/Session02.dir/08passbyref.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/08passbyref.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/08passbyref.cpp.o.provides
+
+CMakeFiles/Session02.dir/08passbyref.cpp.o.provides.build: CMakeFiles/Session02.dir/08passbyref.cpp.o
+
+
+CMakeFiles/Session02.dir/09returningmultiple.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/09returningmultiple.cpp.o: ../09returningmultiple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Session02.dir/09returningmultiple.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/09returningmultiple.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/09returningmultiple.cpp
+
+CMakeFiles/Session02.dir/09returningmultiple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/09returningmultiple.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/09returningmultiple.cpp > CMakeFiles/Session02.dir/09returningmultiple.cpp.i
+
+CMakeFiles/Session02.dir/09returningmultiple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/09returningmultiple.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/09returningmultiple.cpp -o CMakeFiles/Session02.dir/09returningmultiple.cpp.s
+
+CMakeFiles/Session02.dir/09returningmultiple.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/09returningmultiple.cpp.o.requires
+
+CMakeFiles/Session02.dir/09returningmultiple.cpp.o.provides: CMakeFiles/Session02.dir/09returningmultiple.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/09returningmultiple.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/09returningmultiple.cpp.o.provides
+
+CMakeFiles/Session02.dir/09returningmultiple.cpp.o.provides.build: CMakeFiles/Session02.dir/09returningmultiple.cpp.o
+
+
+CMakeFiles/Session02.dir/10pointerstofunction.cpp.o: CMakeFiles/Session02.dir/flags.make
+CMakeFiles/Session02.dir/10pointerstofunction.cpp.o: ../10pointerstofunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Session02.dir/10pointerstofunction.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Session02.dir/10pointerstofunction.cpp.o -c /Users/connordepalma/Documents/Git/EE553/Session02/10pointerstofunction.cpp
+
+CMakeFiles/Session02.dir/10pointerstofunction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Session02.dir/10pointerstofunction.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/Session02/10pointerstofunction.cpp > CMakeFiles/Session02.dir/10pointerstofunction.cpp.i
+
+CMakeFiles/Session02.dir/10pointerstofunction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Session02.dir/10pointerstofunction.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/Session02/10pointerstofunction.cpp -o CMakeFiles/Session02.dir/10pointerstofunction.cpp.s
+
+CMakeFiles/Session02.dir/10pointerstofunction.cpp.o.requires:
+
+.PHONY : CMakeFiles/Session02.dir/10pointerstofunction.cpp.o.requires
+
+CMakeFiles/Session02.dir/10pointerstofunction.cpp.o.provides: CMakeFiles/Session02.dir/10pointerstofunction.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/10pointerstofunction.cpp.o.provides.build
+.PHONY : CMakeFiles/Session02.dir/10pointerstofunction.cpp.o.provides
+
+CMakeFiles/Session02.dir/10pointerstofunction.cpp.o.provides.build: CMakeFiles/Session02.dir/10pointerstofunction.cpp.o
+
+
 # Object files for target Session02
 Session02_OBJECTS = \
-"CMakeFiles/Session02.dir/main.cpp.o"
+"CMakeFiles/Session02.dir/main.cpp.o" \
+"CMakeFiles/Session02.dir/bisection.cpp.o" \
+"CMakeFiles/Session02.dir/00reveiw.cpp.o" \
+"CMakeFiles/Session02.dir/01reviewfloat.cpp.o" \
+"CMakeFiles/Session02.dir/01breviewfloat.cpp.o" \
+"CMakeFiles/Session02.dir/02functions.cpp.o" \
+"CMakeFiles/Session02.dir/02bfunctions.cpp.o" \
+"CMakeFiles/Session02.dir/03loopopt.cpp.o" \
+"CMakeFiles/Session02.dir/04functions.cpp.o" \
+"CMakeFiles/Session02.dir/05inlineornot.cpp.o" \
+"CMakeFiles/Session02.dir/05functions.cpp.o" \
+"CMakeFiles/Session02.dir/06strings.cpp.o" \
+"CMakeFiles/Session02.dir/07io.cpp.o" \
+"CMakeFiles/Session02.dir/08passbyref.cpp.o" \
+"CMakeFiles/Session02.dir/09returningmultiple.cpp.o" \
+"CMakeFiles/Session02.dir/10pointerstofunction.cpp.o"
 
 # External object files for target Session02
 Session02_EXTERNAL_OBJECTS =
 
 Session02: CMakeFiles/Session02.dir/main.cpp.o
+Session02: CMakeFiles/Session02.dir/bisection.cpp.o
+Session02: CMakeFiles/Session02.dir/00reveiw.cpp.o
+Session02: CMakeFiles/Session02.dir/01reviewfloat.cpp.o
+Session02: CMakeFiles/Session02.dir/01breviewfloat.cpp.o
+Session02: CMakeFiles/Session02.dir/02functions.cpp.o
+Session02: CMakeFiles/Session02.dir/02bfunctions.cpp.o
+Session02: CMakeFiles/Session02.dir/03loopopt.cpp.o
+Session02: CMakeFiles/Session02.dir/04functions.cpp.o
+Session02: CMakeFiles/Session02.dir/05inlineornot.cpp.o
+Session02: CMakeFiles/Session02.dir/05functions.cpp.o
+Session02: CMakeFiles/Session02.dir/06strings.cpp.o
+Session02: CMakeFiles/Session02.dir/07io.cpp.o
+Session02: CMakeFiles/Session02.dir/08passbyref.cpp.o
+Session02: CMakeFiles/Session02.dir/09returningmultiple.cpp.o
+Session02: CMakeFiles/Session02.dir/10pointerstofunction.cpp.o
 Session02: CMakeFiles/Session02.dir/build.make
 Session02: CMakeFiles/Session02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Session02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/connordepalma/Documents/Git/EE553/Session02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Session02"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Session02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +490,21 @@ CMakeFiles/Session02.dir/build: Session02
 .PHONY : CMakeFiles/Session02.dir/build
 
 CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/main.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/bisection.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/00reveiw.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/01reviewfloat.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/01breviewfloat.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/02functions.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/02bfunctions.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/03loopopt.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/04functions.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/05inlineornot.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/05functions.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/06strings.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/07io.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/08passbyref.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/09returningmultiple.cpp.o.requires
+CMakeFiles/Session02.dir/requires: CMakeFiles/Session02.dir/10pointerstofunction.cpp.o.requires
 
 .PHONY : CMakeFiles/Session02.dir/requires
 

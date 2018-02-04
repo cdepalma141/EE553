@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE553/Session02/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,123 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 06strings
+
+# Build rule for target.
+06strings: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 06strings
+.PHONY : 06strings
+
+# fast build rule for target.
+06strings/fast:
+	$(MAKE) -f CMakeFiles/06strings.dir/build.make CMakeFiles/06strings.dir/build
+.PHONY : 06strings/fast
+
+#=============================================================================
+# Target rules for targets named 07io
+
+# Build rule for target.
+07io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 07io
+.PHONY : 07io
+
+# fast build rule for target.
+07io/fast:
+	$(MAKE) -f CMakeFiles/07io.dir/build.make CMakeFiles/07io.dir/build
+.PHONY : 07io/fast
+
+#=============================================================================
+# Target rules for targets named 10pointerstofunction
+
+# Build rule for target.
+10pointerstofunction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 10pointerstofunction
+.PHONY : 10pointerstofunction
+
+# fast build rule for target.
+10pointerstofunction/fast:
+	$(MAKE) -f CMakeFiles/10pointerstofunction.dir/build.make CMakeFiles/10pointerstofunction.dir/build
+.PHONY : 10pointerstofunction/fast
+
+#=============================================================================
+# Target rules for targets named 05functions
+
+# Build rule for target.
+05functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 05functions
+.PHONY : 05functions
+
+# fast build rule for target.
+05functions/fast:
+	$(MAKE) -f CMakeFiles/05functions.dir/build.make CMakeFiles/05functions.dir/build
+.PHONY : 05functions/fast
+
+#=============================================================================
+# Target rules for targets named 02bfunctions
+
+# Build rule for target.
+02bfunctions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 02bfunctions
+.PHONY : 02bfunctions
+
+# fast build rule for target.
+02bfunctions/fast:
+	$(MAKE) -f CMakeFiles/02bfunctions.dir/build.make CMakeFiles/02bfunctions.dir/build
+.PHONY : 02bfunctions/fast
+
+#=============================================================================
+# Target rules for targets named 03loopopt
+
+# Build rule for target.
+03loopopt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 03loopopt
+.PHONY : 03loopopt
+
+# fast build rule for target.
+03loopopt/fast:
+	$(MAKE) -f CMakeFiles/03loopopt.dir/build.make CMakeFiles/03loopopt.dir/build
+.PHONY : 03loopopt/fast
+
+#=============================================================================
+# Target rules for targets named 09returningmultiple
+
+# Build rule for target.
+09returningmultiple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 09returningmultiple
+.PHONY : 09returningmultiple
+
+# fast build rule for target.
+09returningmultiple/fast:
+	$(MAKE) -f CMakeFiles/09returningmultiple.dir/build.make CMakeFiles/09returningmultiple.dir/build
+.PHONY : 09returningmultiple/fast
+
+#=============================================================================
+# Target rules for targets named 02functions
+
+# Build rule for target.
+02functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 02functions
+.PHONY : 02functions
+
+# fast build rule for target.
+02functions/fast:
+	$(MAKE) -f CMakeFiles/02functions.dir/build.make CMakeFiles/02functions.dir/build
+.PHONY : 02functions/fast
+
+#=============================================================================
+# Target rules for targets named 01reviewfloat
+
+# Build rule for target.
+01reviewfloat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 01reviewfloat
+.PHONY : 01reviewfloat
+
+# fast build rule for target.
+01reviewfloat/fast:
+	$(MAKE) -f CMakeFiles/01reviewfloat.dir/build.make CMakeFiles/01reviewfloat.dir/build
+.PHONY : 01reviewfloat/fast
+
+#=============================================================================
 # Target rules for targets named Session02
 
 # Build rule for target.
@@ -122,6 +239,438 @@ Session02: cmake_check_build_system
 Session02/fast:
 	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/build
 .PHONY : Session02/fast
+
+00reveiw.o: 00reveiw.cpp.o
+
+.PHONY : 00reveiw.o
+
+# target to build an object file
+00reveiw.cpp.o:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/00reveiw.cpp.o
+.PHONY : 00reveiw.cpp.o
+
+00reveiw.i: 00reveiw.cpp.i
+
+.PHONY : 00reveiw.i
+
+# target to preprocess a source file
+00reveiw.cpp.i:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/00reveiw.cpp.i
+.PHONY : 00reveiw.cpp.i
+
+00reveiw.s: 00reveiw.cpp.s
+
+.PHONY : 00reveiw.s
+
+# target to generate assembly for a file
+00reveiw.cpp.s:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/00reveiw.cpp.s
+.PHONY : 00reveiw.cpp.s
+
+01breviewfloat.o: 01breviewfloat.cpp.o
+
+.PHONY : 01breviewfloat.o
+
+# target to build an object file
+01breviewfloat.cpp.o:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/01breviewfloat.cpp.o
+.PHONY : 01breviewfloat.cpp.o
+
+01breviewfloat.i: 01breviewfloat.cpp.i
+
+.PHONY : 01breviewfloat.i
+
+# target to preprocess a source file
+01breviewfloat.cpp.i:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/01breviewfloat.cpp.i
+.PHONY : 01breviewfloat.cpp.i
+
+01breviewfloat.s: 01breviewfloat.cpp.s
+
+.PHONY : 01breviewfloat.s
+
+# target to generate assembly for a file
+01breviewfloat.cpp.s:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/01breviewfloat.cpp.s
+.PHONY : 01breviewfloat.cpp.s
+
+01reviewfloat.o: 01reviewfloat.cpp.o
+
+.PHONY : 01reviewfloat.o
+
+# target to build an object file
+01reviewfloat.cpp.o:
+	$(MAKE) -f CMakeFiles/01reviewfloat.dir/build.make CMakeFiles/01reviewfloat.dir/01reviewfloat.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/01reviewfloat.cpp.o
+.PHONY : 01reviewfloat.cpp.o
+
+01reviewfloat.i: 01reviewfloat.cpp.i
+
+.PHONY : 01reviewfloat.i
+
+# target to preprocess a source file
+01reviewfloat.cpp.i:
+	$(MAKE) -f CMakeFiles/01reviewfloat.dir/build.make CMakeFiles/01reviewfloat.dir/01reviewfloat.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/01reviewfloat.cpp.i
+.PHONY : 01reviewfloat.cpp.i
+
+01reviewfloat.s: 01reviewfloat.cpp.s
+
+.PHONY : 01reviewfloat.s
+
+# target to generate assembly for a file
+01reviewfloat.cpp.s:
+	$(MAKE) -f CMakeFiles/01reviewfloat.dir/build.make CMakeFiles/01reviewfloat.dir/01reviewfloat.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/01reviewfloat.cpp.s
+.PHONY : 01reviewfloat.cpp.s
+
+02bfunctions.o: 02bfunctions.cpp.o
+
+.PHONY : 02bfunctions.o
+
+# target to build an object file
+02bfunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/02bfunctions.dir/build.make CMakeFiles/02bfunctions.dir/02bfunctions.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/02bfunctions.cpp.o
+.PHONY : 02bfunctions.cpp.o
+
+02bfunctions.i: 02bfunctions.cpp.i
+
+.PHONY : 02bfunctions.i
+
+# target to preprocess a source file
+02bfunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/02bfunctions.dir/build.make CMakeFiles/02bfunctions.dir/02bfunctions.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/02bfunctions.cpp.i
+.PHONY : 02bfunctions.cpp.i
+
+02bfunctions.s: 02bfunctions.cpp.s
+
+.PHONY : 02bfunctions.s
+
+# target to generate assembly for a file
+02bfunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/02bfunctions.dir/build.make CMakeFiles/02bfunctions.dir/02bfunctions.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/02bfunctions.cpp.s
+.PHONY : 02bfunctions.cpp.s
+
+02functions.o: 02functions.cpp.o
+
+.PHONY : 02functions.o
+
+# target to build an object file
+02functions.cpp.o:
+	$(MAKE) -f CMakeFiles/02functions.dir/build.make CMakeFiles/02functions.dir/02functions.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/02functions.cpp.o
+.PHONY : 02functions.cpp.o
+
+02functions.i: 02functions.cpp.i
+
+.PHONY : 02functions.i
+
+# target to preprocess a source file
+02functions.cpp.i:
+	$(MAKE) -f CMakeFiles/02functions.dir/build.make CMakeFiles/02functions.dir/02functions.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/02functions.cpp.i
+.PHONY : 02functions.cpp.i
+
+02functions.s: 02functions.cpp.s
+
+.PHONY : 02functions.s
+
+# target to generate assembly for a file
+02functions.cpp.s:
+	$(MAKE) -f CMakeFiles/02functions.dir/build.make CMakeFiles/02functions.dir/02functions.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/02functions.cpp.s
+.PHONY : 02functions.cpp.s
+
+03loopopt.o: 03loopopt.cpp.o
+
+.PHONY : 03loopopt.o
+
+# target to build an object file
+03loopopt.cpp.o:
+	$(MAKE) -f CMakeFiles/03loopopt.dir/build.make CMakeFiles/03loopopt.dir/03loopopt.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/03loopopt.cpp.o
+.PHONY : 03loopopt.cpp.o
+
+03loopopt.i: 03loopopt.cpp.i
+
+.PHONY : 03loopopt.i
+
+# target to preprocess a source file
+03loopopt.cpp.i:
+	$(MAKE) -f CMakeFiles/03loopopt.dir/build.make CMakeFiles/03loopopt.dir/03loopopt.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/03loopopt.cpp.i
+.PHONY : 03loopopt.cpp.i
+
+03loopopt.s: 03loopopt.cpp.s
+
+.PHONY : 03loopopt.s
+
+# target to generate assembly for a file
+03loopopt.cpp.s:
+	$(MAKE) -f CMakeFiles/03loopopt.dir/build.make CMakeFiles/03loopopt.dir/03loopopt.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/03loopopt.cpp.s
+.PHONY : 03loopopt.cpp.s
+
+04functions.o: 04functions.cpp.o
+
+.PHONY : 04functions.o
+
+# target to build an object file
+04functions.cpp.o:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/04functions.cpp.o
+.PHONY : 04functions.cpp.o
+
+04functions.i: 04functions.cpp.i
+
+.PHONY : 04functions.i
+
+# target to preprocess a source file
+04functions.cpp.i:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/04functions.cpp.i
+.PHONY : 04functions.cpp.i
+
+04functions.s: 04functions.cpp.s
+
+.PHONY : 04functions.s
+
+# target to generate assembly for a file
+04functions.cpp.s:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/04functions.cpp.s
+.PHONY : 04functions.cpp.s
+
+05functions.o: 05functions.cpp.o
+
+.PHONY : 05functions.o
+
+# target to build an object file
+05functions.cpp.o:
+	$(MAKE) -f CMakeFiles/05functions.dir/build.make CMakeFiles/05functions.dir/05functions.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/05functions.cpp.o
+.PHONY : 05functions.cpp.o
+
+05functions.i: 05functions.cpp.i
+
+.PHONY : 05functions.i
+
+# target to preprocess a source file
+05functions.cpp.i:
+	$(MAKE) -f CMakeFiles/05functions.dir/build.make CMakeFiles/05functions.dir/05functions.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/05functions.cpp.i
+.PHONY : 05functions.cpp.i
+
+05functions.s: 05functions.cpp.s
+
+.PHONY : 05functions.s
+
+# target to generate assembly for a file
+05functions.cpp.s:
+	$(MAKE) -f CMakeFiles/05functions.dir/build.make CMakeFiles/05functions.dir/05functions.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/05functions.cpp.s
+.PHONY : 05functions.cpp.s
+
+05inlineornot.o: 05inlineornot.cpp.o
+
+.PHONY : 05inlineornot.o
+
+# target to build an object file
+05inlineornot.cpp.o:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/05inlineornot.cpp.o
+.PHONY : 05inlineornot.cpp.o
+
+05inlineornot.i: 05inlineornot.cpp.i
+
+.PHONY : 05inlineornot.i
+
+# target to preprocess a source file
+05inlineornot.cpp.i:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/05inlineornot.cpp.i
+.PHONY : 05inlineornot.cpp.i
+
+05inlineornot.s: 05inlineornot.cpp.s
+
+.PHONY : 05inlineornot.s
+
+# target to generate assembly for a file
+05inlineornot.cpp.s:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/05inlineornot.cpp.s
+.PHONY : 05inlineornot.cpp.s
+
+06strings.o: 06strings.cpp.o
+
+.PHONY : 06strings.o
+
+# target to build an object file
+06strings.cpp.o:
+	$(MAKE) -f CMakeFiles/06strings.dir/build.make CMakeFiles/06strings.dir/06strings.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/06strings.cpp.o
+.PHONY : 06strings.cpp.o
+
+06strings.i: 06strings.cpp.i
+
+.PHONY : 06strings.i
+
+# target to preprocess a source file
+06strings.cpp.i:
+	$(MAKE) -f CMakeFiles/06strings.dir/build.make CMakeFiles/06strings.dir/06strings.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/06strings.cpp.i
+.PHONY : 06strings.cpp.i
+
+06strings.s: 06strings.cpp.s
+
+.PHONY : 06strings.s
+
+# target to generate assembly for a file
+06strings.cpp.s:
+	$(MAKE) -f CMakeFiles/06strings.dir/build.make CMakeFiles/06strings.dir/06strings.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/06strings.cpp.s
+.PHONY : 06strings.cpp.s
+
+07io.o: 07io.cpp.o
+
+.PHONY : 07io.o
+
+# target to build an object file
+07io.cpp.o:
+	$(MAKE) -f CMakeFiles/07io.dir/build.make CMakeFiles/07io.dir/07io.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/07io.cpp.o
+.PHONY : 07io.cpp.o
+
+07io.i: 07io.cpp.i
+
+.PHONY : 07io.i
+
+# target to preprocess a source file
+07io.cpp.i:
+	$(MAKE) -f CMakeFiles/07io.dir/build.make CMakeFiles/07io.dir/07io.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/07io.cpp.i
+.PHONY : 07io.cpp.i
+
+07io.s: 07io.cpp.s
+
+.PHONY : 07io.s
+
+# target to generate assembly for a file
+07io.cpp.s:
+	$(MAKE) -f CMakeFiles/07io.dir/build.make CMakeFiles/07io.dir/07io.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/07io.cpp.s
+.PHONY : 07io.cpp.s
+
+08passbyref.o: 08passbyref.cpp.o
+
+.PHONY : 08passbyref.o
+
+# target to build an object file
+08passbyref.cpp.o:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/08passbyref.cpp.o
+.PHONY : 08passbyref.cpp.o
+
+08passbyref.i: 08passbyref.cpp.i
+
+.PHONY : 08passbyref.i
+
+# target to preprocess a source file
+08passbyref.cpp.i:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/08passbyref.cpp.i
+.PHONY : 08passbyref.cpp.i
+
+08passbyref.s: 08passbyref.cpp.s
+
+.PHONY : 08passbyref.s
+
+# target to generate assembly for a file
+08passbyref.cpp.s:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/08passbyref.cpp.s
+.PHONY : 08passbyref.cpp.s
+
+09returningmultiple.o: 09returningmultiple.cpp.o
+
+.PHONY : 09returningmultiple.o
+
+# target to build an object file
+09returningmultiple.cpp.o:
+	$(MAKE) -f CMakeFiles/09returningmultiple.dir/build.make CMakeFiles/09returningmultiple.dir/09returningmultiple.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/09returningmultiple.cpp.o
+.PHONY : 09returningmultiple.cpp.o
+
+09returningmultiple.i: 09returningmultiple.cpp.i
+
+.PHONY : 09returningmultiple.i
+
+# target to preprocess a source file
+09returningmultiple.cpp.i:
+	$(MAKE) -f CMakeFiles/09returningmultiple.dir/build.make CMakeFiles/09returningmultiple.dir/09returningmultiple.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/09returningmultiple.cpp.i
+.PHONY : 09returningmultiple.cpp.i
+
+09returningmultiple.s: 09returningmultiple.cpp.s
+
+.PHONY : 09returningmultiple.s
+
+# target to generate assembly for a file
+09returningmultiple.cpp.s:
+	$(MAKE) -f CMakeFiles/09returningmultiple.dir/build.make CMakeFiles/09returningmultiple.dir/09returningmultiple.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/09returningmultiple.cpp.s
+.PHONY : 09returningmultiple.cpp.s
+
+10pointerstofunction.o: 10pointerstofunction.cpp.o
+
+.PHONY : 10pointerstofunction.o
+
+# target to build an object file
+10pointerstofunction.cpp.o:
+	$(MAKE) -f CMakeFiles/10pointerstofunction.dir/build.make CMakeFiles/10pointerstofunction.dir/10pointerstofunction.cpp.o
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/10pointerstofunction.cpp.o
+.PHONY : 10pointerstofunction.cpp.o
+
+10pointerstofunction.i: 10pointerstofunction.cpp.i
+
+.PHONY : 10pointerstofunction.i
+
+# target to preprocess a source file
+10pointerstofunction.cpp.i:
+	$(MAKE) -f CMakeFiles/10pointerstofunction.dir/build.make CMakeFiles/10pointerstofunction.dir/10pointerstofunction.cpp.i
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/10pointerstofunction.cpp.i
+.PHONY : 10pointerstofunction.cpp.i
+
+10pointerstofunction.s: 10pointerstofunction.cpp.s
+
+.PHONY : 10pointerstofunction.s
+
+# target to generate assembly for a file
+10pointerstofunction.cpp.s:
+	$(MAKE) -f CMakeFiles/10pointerstofunction.dir/build.make CMakeFiles/10pointerstofunction.dir/10pointerstofunction.cpp.s
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/10pointerstofunction.cpp.s
+.PHONY : 10pointerstofunction.cpp.s
+
+bisection.o: bisection.cpp.o
+
+.PHONY : bisection.o
+
+# target to build an object file
+bisection.cpp.o:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/bisection.cpp.o
+.PHONY : bisection.cpp.o
+
+bisection.i: bisection.cpp.i
+
+.PHONY : bisection.i
+
+# target to preprocess a source file
+bisection.cpp.i:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/bisection.cpp.i
+.PHONY : bisection.cpp.i
+
+bisection.s: bisection.cpp.s
+
+.PHONY : bisection.s
+
+# target to generate assembly for a file
+bisection.cpp.s:
+	$(MAKE) -f CMakeFiles/Session02.dir/build.make CMakeFiles/Session02.dir/bisection.cpp.s
+.PHONY : bisection.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,9 +705,63 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
+	@echo "... 06strings"
 	@echo "... edit_cache"
+	@echo "... 07io"
+	@echo "... 10pointerstofunction"
+	@echo "... 05functions"
+	@echo "... 02bfunctions"
+	@echo "... 03loopopt"
+	@echo "... 09returningmultiple"
+	@echo "... rebuild_cache"
+	@echo "... 02functions"
+	@echo "... 01reviewfloat"
 	@echo "... Session02"
+	@echo "... 00reveiw.o"
+	@echo "... 00reveiw.i"
+	@echo "... 00reveiw.s"
+	@echo "... 01breviewfloat.o"
+	@echo "... 01breviewfloat.i"
+	@echo "... 01breviewfloat.s"
+	@echo "... 01reviewfloat.o"
+	@echo "... 01reviewfloat.i"
+	@echo "... 01reviewfloat.s"
+	@echo "... 02bfunctions.o"
+	@echo "... 02bfunctions.i"
+	@echo "... 02bfunctions.s"
+	@echo "... 02functions.o"
+	@echo "... 02functions.i"
+	@echo "... 02functions.s"
+	@echo "... 03loopopt.o"
+	@echo "... 03loopopt.i"
+	@echo "... 03loopopt.s"
+	@echo "... 04functions.o"
+	@echo "... 04functions.i"
+	@echo "... 04functions.s"
+	@echo "... 05functions.o"
+	@echo "... 05functions.i"
+	@echo "... 05functions.s"
+	@echo "... 05inlineornot.o"
+	@echo "... 05inlineornot.i"
+	@echo "... 05inlineornot.s"
+	@echo "... 06strings.o"
+	@echo "... 06strings.i"
+	@echo "... 06strings.s"
+	@echo "... 07io.o"
+	@echo "... 07io.i"
+	@echo "... 07io.s"
+	@echo "... 08passbyref.o"
+	@echo "... 08passbyref.i"
+	@echo "... 08passbyref.s"
+	@echo "... 09returningmultiple.o"
+	@echo "... 09returningmultiple.i"
+	@echo "... 09returningmultiple.s"
+	@echo "... 10pointerstofunction.o"
+	@echo "... 10pointerstofunction.i"
+	@echo "... 10pointerstofunction.s"
+	@echo "... bisection.o"
+	@echo "... bisection.i"
+	@echo "... bisection.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

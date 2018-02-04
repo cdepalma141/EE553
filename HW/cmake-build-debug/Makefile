@@ -124,6 +124,19 @@ Hw1f/fast:
 .PHONY : Hw1f/fast
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named HW
 
 # Build rule for target.
@@ -344,6 +357,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -353,6 +367,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -362,6 +377,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -374,6 +390,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Hw1f"
+	@echo "... main"
 	@echo "... HW"
 	@echo "... HW1e"
 	@echo "... HW1d"
