@@ -13,3 +13,4 @@ CMake Error: CMake can not determine linker language for target: HW2e
 CMake Error: Cannot determine link language for target "HW2e".
 -- Generating done
 -- Build files have been written to: /Users/connordepalma/Documents/Git/EE553/HW2/cmake-build-debug
+Unable to determine product file path for target HW2e. Running and debugging will be unavailable.

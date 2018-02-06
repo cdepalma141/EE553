@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Session03"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04nestedloops">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/04nestedloops" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 04nestedloops"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04nestedloops/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/04nestedloops" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 04nestedloops/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03files">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/03files" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 03files"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03files/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/03files" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 03files/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05objects">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/05objects" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 05objects"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05objects/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/05objects" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 05objects/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01bstrings">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/01bstrings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 01bstrings"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01bstrings/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/01bstrings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 01bstrings/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05cfraction">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/05cfraction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 05cfraction"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05cfraction/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/05cfraction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 05cfraction/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Session03">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Session03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 Session03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Session03/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Session03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 Session03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/Session03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/01bstrings.cpp">
+			<Option target="01bstrings"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/03bfiles.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/03files.cpp">
+			<Option target="03files"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/04nestedloops.cpp">
+			<Option target="04nestedloops"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/05bfraction.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/05cfraction.cpp">
+			<Option target="05cfraction"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/05objects.cpp">
+			<Option target="05objects"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/arraysandstrings.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/main.cpp">
+			<Option target="main"/>
+			<Option target="Session03"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/review.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE553/Session03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
