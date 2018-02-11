@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HW2e
+# Target rules for targets named Hw2e
 
 # Build rule for target.
-HW2e: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HW2e
-.PHONY : HW2e
+Hw2e: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hw2e
+.PHONY : Hw2e
 
 # fast build rule for target.
-HW2e/fast:
-	$(MAKE) -f CMakeFiles/HW2e.dir/build.make CMakeFiles/HW2e.dir/build
-.PHONY : HW2e/fast
+Hw2e/fast:
+	$(MAKE) -f CMakeFiles/Hw2e.dir/build.make CMakeFiles/Hw2e.dir/build
+.PHONY : Hw2e/fast
 
 #=============================================================================
 # Target rules for targets named HW2c
@@ -135,6 +135,32 @@ HW2c: cmake_check_build_system
 HW2c/fast:
 	$(MAKE) -f CMakeFiles/HW2c.dir/build.make CMakeFiles/HW2c.dir/build
 .PHONY : HW2c/fast
+
+#=============================================================================
+# Target rules for targets named Hw2a
+
+# Build rule for target.
+Hw2a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hw2a
+.PHONY : Hw2a
+
+# fast build rule for target.
+Hw2a/fast:
+	$(MAKE) -f CMakeFiles/Hw2a.dir/build.make CMakeFiles/Hw2a.dir/build
+.PHONY : Hw2a/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named HW2b
@@ -222,12 +248,73 @@ HW2c.cpp.s:
 	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/HW2c.cpp.s
 .PHONY : HW2c.cpp.s
 
+Hw2a.o: Hw2a.cpp.o
+
+.PHONY : Hw2a.o
+
+# target to build an object file
+Hw2a.cpp.o:
+	$(MAKE) -f CMakeFiles/Hw2a.dir/build.make CMakeFiles/Hw2a.dir/Hw2a.cpp.o
+	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/Hw2a.cpp.o
+.PHONY : Hw2a.cpp.o
+
+Hw2a.i: Hw2a.cpp.i
+
+.PHONY : Hw2a.i
+
+# target to preprocess a source file
+Hw2a.cpp.i:
+	$(MAKE) -f CMakeFiles/Hw2a.dir/build.make CMakeFiles/Hw2a.dir/Hw2a.cpp.i
+	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/Hw2a.cpp.i
+.PHONY : Hw2a.cpp.i
+
+Hw2a.s: Hw2a.cpp.s
+
+.PHONY : Hw2a.s
+
+# target to generate assembly for a file
+Hw2a.cpp.s:
+	$(MAKE) -f CMakeFiles/Hw2a.dir/build.make CMakeFiles/Hw2a.dir/Hw2a.cpp.s
+	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/Hw2a.cpp.s
+.PHONY : Hw2a.cpp.s
+
+Hw2e.o: Hw2e.cpp.o
+
+.PHONY : Hw2e.o
+
+# target to build an object file
+Hw2e.cpp.o:
+	$(MAKE) -f CMakeFiles/Hw2e.dir/build.make CMakeFiles/Hw2e.dir/Hw2e.cpp.o
+	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/Hw2e.cpp.o
+.PHONY : Hw2e.cpp.o
+
+Hw2e.i: Hw2e.cpp.i
+
+.PHONY : Hw2e.i
+
+# target to preprocess a source file
+Hw2e.cpp.i:
+	$(MAKE) -f CMakeFiles/Hw2e.dir/build.make CMakeFiles/Hw2e.dir/Hw2e.cpp.i
+	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/Hw2e.cpp.i
+.PHONY : Hw2e.cpp.i
+
+Hw2e.s: Hw2e.cpp.s
+
+.PHONY : Hw2e.s
+
+# target to generate assembly for a file
+Hw2e.cpp.s:
+	$(MAKE) -f CMakeFiles/Hw2e.dir/build.make CMakeFiles/Hw2e.dir/Hw2e.cpp.s
+	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/Hw2e.cpp.s
+.PHONY : Hw2e.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -237,6 +324,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -246,6 +334,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/HW2.dir/build.make CMakeFiles/HW2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -256,9 +345,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... HW2e"
+	@echo "... Hw2e"
 	@echo "... edit_cache"
 	@echo "... HW2c"
+	@echo "... Hw2a"
+	@echo "... main"
 	@echo "... HW2b"
 	@echo "... HW2"
 	@echo "... HW2b.o"
@@ -267,6 +358,12 @@ help:
 	@echo "... HW2c.o"
 	@echo "... HW2c.i"
 	@echo "... HW2c.s"
+	@echo "... Hw2a.o"
+	@echo "... Hw2a.i"
+	@echo "... Hw2a.s"
+	@echo "... Hw2e.o"
+	@echo "... Hw2e.i"
+	@echo "... Hw2e.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -32,9 +32,9 @@ public:
 
     }
     Fraction operator + (Fraction right) {
-        Fraction (num*right.den + right.num*den,den*right.den);
-
+        Fraction(num * right.den + right.num * den, den * right.den);
     }
+
 };
 
 int main(){

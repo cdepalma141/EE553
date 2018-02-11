@@ -7,24 +7,24 @@
 
 
 using namespace std;
-double stats(double x[], int n);
+//double stats(double x[], int n);
 
 
 int main(){
 
-    ifstream f("grades.txt");
+    ifstream f("/Users/connordepalma/Documents/Git/EE553/Session03/grades.txt");
     double g;
     double array[256];
 
     while (!f.eof()){
         f >> g;
-        cout << g << ' ';
+        cout << g << '\n';
 
 
 
 
     }
-    cout << stats(array, 5);
+    //cout << stats(array, 5);
 
 
 

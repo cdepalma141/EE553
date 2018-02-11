@@ -7,7 +7,9 @@
 
 
 using namespace std;
-double stats(double x[], int n);
+
+
+//double stats(double x[], int n);
 
 
 int main(){
@@ -19,12 +21,8 @@ int main(){
     while (!f.eof()){
         f >> g;
         cout << g << ' ';
-
-
-
-
     }
-    cout << stats(array, 5);
+    //cout << stats(array, 5);
 
 
 

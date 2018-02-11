@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE553/Session03/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named 03bfiles
+
+# Build rule for target.
+03bfiles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 03bfiles
+.PHONY : 03bfiles
+
+# fast build rule for target.
+03bfiles/fast:
+	$(MAKE) -f CMakeFiles/03bfiles.dir/build.make CMakeFiles/03bfiles.dir/build
+.PHONY : 03bfiles/fast
 
 #=============================================================================
 # Target rules for targets named 04nestedloops
@@ -237,6 +250,7 @@ Session03/fast:
 
 # target to build an object file
 03bfiles.cpp.o:
+	$(MAKE) -f CMakeFiles/03bfiles.dir/build.make CMakeFiles/03bfiles.dir/03bfiles.cpp.o
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/03bfiles.cpp.o
 .PHONY : 03bfiles.cpp.o
 
@@ -246,6 +260,7 @@ Session03/fast:
 
 # target to preprocess a source file
 03bfiles.cpp.i:
+	$(MAKE) -f CMakeFiles/03bfiles.dir/build.make CMakeFiles/03bfiles.dir/03bfiles.cpp.i
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/03bfiles.cpp.i
 .PHONY : 03bfiles.cpp.i
 
@@ -255,6 +270,7 @@ Session03/fast:
 
 # target to generate assembly for a file
 03bfiles.cpp.s:
+	$(MAKE) -f CMakeFiles/03bfiles.dir/build.make CMakeFiles/03bfiles.dir/03bfiles.cpp.s
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/03bfiles.cpp.s
 .PHONY : 03bfiles.cpp.s
 
@@ -495,8 +511,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... 03bfiles"
 	@echo "... 04nestedloops"
 	@echo "... 03files"
 	@echo "... 05objects"

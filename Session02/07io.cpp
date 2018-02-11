@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main(){
-    ifstream f("vec.txt");
+    ifstream f("/Users/connordepalma/Documents/Git/EE553/Session02/vec.txt");
     string lineBuf;
     while(!f.eof()){
         getline(f, lineBuf); // memory where storing line

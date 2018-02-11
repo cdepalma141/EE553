@@ -11,7 +11,7 @@ double rect2polar(double x, double y, double& r ,double& theta){
 
 
 int main() {
-    double x = 3.0, y = 5.0;
+    double x = 4.0, y = 4.0;
     //r theta
     double r,theta;
 

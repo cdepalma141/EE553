@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/connordepalma/Documents/Git/EE553/HW2/HW2b.cpp" "/Users/connordepalma/Documents/Git/EE553/HW2/cmake-build-debug/CMakeFiles/HW2.dir/HW2b.cpp.o"
   "/Users/connordepalma/Documents/Git/EE553/HW2/HW2c.cpp" "/Users/connordepalma/Documents/Git/EE553/HW2/cmake-build-debug/CMakeFiles/HW2.dir/HW2c.cpp.o"
+  "/Users/connordepalma/Documents/Git/EE553/HW2/Hw2a.cpp" "/Users/connordepalma/Documents/Git/EE553/HW2/cmake-build-debug/CMakeFiles/HW2.dir/Hw2a.cpp.o"
+  "/Users/connordepalma/Documents/Git/EE553/HW2/Hw2e.cpp" "/Users/connordepalma/Documents/Git/EE553/HW2/cmake-build-debug/CMakeFiles/HW2.dir/Hw2e.cpp.o"
   "/Users/connordepalma/Documents/Git/EE553/HW2/main.cpp" "/Users/connordepalma/Documents/Git/EE553/HW2/cmake-build-debug/CMakeFiles/HW2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
