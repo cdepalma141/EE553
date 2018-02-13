@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/Session04/main.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/Session04/s00fraction.cpp
+iostream
+-
+fstream
+-
+
