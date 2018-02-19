@@ -6,8 +6,40 @@
 
 #IncludeRegexTransform: 
 
+/Users/connordepalma/Documents/Git/EE553/Session04/01static.cpp
+iostream
+-
+string
+-
+
+/Users/connordepalma/Documents/Git/EE553/Session04/02containment.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/Session04/03Inheritance.cpp
+iostream
+-
+
 /Users/connordepalma/Documents/Git/EE553/Session04/main.cpp
 iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/Session04/s00bFraction.cpp
+iostream
+-
+fstream
+-
+
+/Users/connordepalma/Documents/Git/EE553/Session04/s00dFraction.cpp
+iostream
+-
+fstream
+-
+
+/Users/connordepalma/Documents/Git/EE553/Session04/s00eFraction.cc
+iostream
+-
+fstream
 -
 
 /Users/connordepalma/Documents/Git/EE553/Session04/s00fraction.cpp

@@ -21,7 +21,6 @@ public:
 
     //const Fraction c = a.add(b);
     friend Fraction operator +(Fraction a, Fraction b)  {// Friend makes it act like a function instead NO CONST CAUSE NO THIS
-        //left hand side = this and right hand is "r"
         return Fraction(a.num*b.den+b.num*a.den, a.den*b.den); // treats parameter as objects instead of this and right
     }
     //a.setNum
