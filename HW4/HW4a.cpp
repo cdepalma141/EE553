@@ -15,8 +15,9 @@ using namespace std;
 class Vec3d {
 
 private:
+
 	double p1, p2, p3;
-    static double dotprod;
+
 public:
 	Vec3d (double a = 0, double b = 0, double c = 0) : p1(a), p2(b), p3(c) {}
 
@@ -42,8 +43,8 @@ public:
 	}
 
     static double dot(Vec3d a, Vec3d b){
-        dotprod = a.p1*b.p1 + a.p2*b.p2 + a.p3*b.p3;
-        return dotprod;
+        return a.p1*b.p1 + a.p2*b.p2 + a.p3*b.p3;
+
     }
 
 };
@@ -52,7 +53,7 @@ double dot(Vec3d a, Vec3d b){
    return a.p1*b.p1 + a.p2*b.p2 + a.p3*b.p3;
 }
 
-double Vec3d::dotprod = 0;
+
 
 
 int main() {
@@ -67,7 +68,7 @@ int main() {
 	double x = dot(f, g); // regular function
 	double y = Vec3d::dot(f,g); // static function
     double z = f.dot(g); // method
-	const Vec3d h = -b;
+   	const Vec3d h = -b;
 
 	double dist = f.mag(); // square root of sum of square
 	double dist2 = f.magSq(); // sum of square
