@@ -124,6 +124,19 @@ HW3b/fast:
 .PHONY : HW3b/fast
 
 #=============================================================================
+# Target rules for targets named HW3
+
+# Build rule for target.
+HW3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW3
+.PHONY : HW3
+
+# fast build rule for target.
+HW3/fast:
+	$(MAKE) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/build
+.PHONY : HW3/fast
+
+#=============================================================================
 # Target rules for targets named HW3a
 
 # Build rule for target.
@@ -137,17 +150,17 @@ HW3a/fast:
 .PHONY : HW3a/fast
 
 #=============================================================================
-# Target rules for targets named HW3
+# Target rules for targets named main
 
 # Build rule for target.
-HW3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HW3
-.PHONY : HW3
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-HW3/fast:
-	$(MAKE) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/build
-.PHONY : HW3/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 HW3a.o: HW3a.cpp.o
 
@@ -155,8 +168,8 @@ HW3a.o: HW3a.cpp.o
 
 # target to build an object file
 HW3a.cpp.o:
-	$(MAKE) -f CMakeFiles/HW3a.dir/build.make CMakeFiles/HW3a.dir/HW3a.cpp.o
 	$(MAKE) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3a.cpp.o
+	$(MAKE) -f CMakeFiles/HW3a.dir/build.make CMakeFiles/HW3a.dir/HW3a.cpp.o
 .PHONY : HW3a.cpp.o
 
 HW3a.i: HW3a.cpp.i
@@ -165,8 +178,8 @@ HW3a.i: HW3a.cpp.i
 
 # target to preprocess a source file
 HW3a.cpp.i:
-	$(MAKE) -f CMakeFiles/HW3a.dir/build.make CMakeFiles/HW3a.dir/HW3a.cpp.i
 	$(MAKE) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3a.cpp.i
+	$(MAKE) -f CMakeFiles/HW3a.dir/build.make CMakeFiles/HW3a.dir/HW3a.cpp.i
 .PHONY : HW3a.cpp.i
 
 HW3a.s: HW3a.cpp.s
@@ -175,8 +188,8 @@ HW3a.s: HW3a.cpp.s
 
 # target to generate assembly for a file
 HW3a.cpp.s:
-	$(MAKE) -f CMakeFiles/HW3a.dir/build.make CMakeFiles/HW3a.dir/HW3a.cpp.s
 	$(MAKE) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3a.cpp.s
+	$(MAKE) -f CMakeFiles/HW3a.dir/build.make CMakeFiles/HW3a.dir/HW3a.cpp.s
 .PHONY : HW3a.cpp.s
 
 HW3b.o: HW3b.cpp.o
@@ -216,6 +229,7 @@ main.o: main.cpp.o
 # target to build an object file
 main.cpp.o:
 	$(MAKE) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -225,6 +239,7 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -234,6 +249,7 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -245,8 +261,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HW3b"
-	@echo "... HW3a"
 	@echo "... HW3"
+	@echo "... HW3a"
+	@echo "... main"
 	@echo "... HW3a.o"
 	@echo "... HW3a.i"
 	@echo "... HW3a.s"

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/Session05/01pointers.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/Session05/main.cpp
+iostream
+-
+

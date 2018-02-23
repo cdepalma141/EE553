@@ -79,48 +79,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="HW3a">
-				<Option output="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/HW3a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3a"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="HW3a/fast">
-				<Option output="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/HW3a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3a/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="HW3">
 				<Option output="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug"/>
@@ -163,10 +121,94 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="HW3a">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/HW3a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3a"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW3a/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/HW3a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3a/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE553/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/connordepalma/Documents/Git/EE553/HW3/HW3a.cpp">
-			<Option target="HW3a"/>
 			<Option target="HW3"/>
+			<Option target="HW3a"/>
 		</Unit>
 		<Unit filename="/Users/connordepalma/Documents/Git/EE553/HW3/HW3b.cpp">
 			<Option target="HW3b"/>
@@ -174,6 +216,7 @@
 		</Unit>
 		<Unit filename="/Users/connordepalma/Documents/Git/EE553/HW3/main.cpp">
 			<Option target="HW3"/>
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/Users/connordepalma/Documents/Git/EE553/HW3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -1,0 +1,5 @@
+/Users/connordepalma/Documents/Git/EE553/Session05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/connordepalma/Documents/Git/EE553/Session05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE553/Session05/cmake-build-debug/CMakeFiles/06pointerstoobjects.dir
+/Users/connordepalma/Documents/Git/EE553/Session05/cmake-build-debug/CMakeFiles/01pointers.dir
+/Users/connordepalma/Documents/Git/EE553/Session05/cmake-build-debug/CMakeFiles/Session05.dir

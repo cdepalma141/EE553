@@ -3,19 +3,15 @@ using namespace std;
 
 
 int main() {
-    double sum = 0;
-    int n = 0;
 
-    cin >> n;
+    int g[3] = {5 ,5 ,2};
+    double mean;
 
-    for (double i = 2; i <= n; i++ )
+    for (int i = 0; i < 3; i++ )
     {
-        sum += 1/(4*i*i);
 
-
+        mean += g[i];
     }
+cout << mean/3;
 
-    cout << sum;
-
-    return 0;
 }
