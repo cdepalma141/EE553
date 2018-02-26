@@ -6,6 +6,11 @@
 
  I pledge my honor that I have abided by the Stevens Honor System.
 
+
+ There are three warnings at the beginning pertaining to the hour minute and section methods.  I was unable to figure out
+ a way to rid of the warnings and not have an unwanted value outputted whenever the functions are called. However, the Class does
+ work as expect in the trials that I did and with the values required for this hw assignment.
+
  */
 
 #include <ctime>
@@ -215,6 +220,7 @@ public:
         else if(h > 0)
             return h;
 
+
     }
 
     JulianDate getMin(){
@@ -226,9 +232,10 @@ public:
         int m = min *60;
 
         if (m < 0)
-        cout << m << '\n';
+        cout << '0' << '\n';
         else if(m > 0)
         return m;
+
 
     }
 
@@ -247,6 +254,7 @@ public:
         else if(s > 0)
             return ceil(s);
 
+
     }
 
 
@@ -260,7 +268,7 @@ public:
 
     JulianDate operator+(int b) {
 
-        return {jday, b};
+        return JulianDate(jday, b);
     }
 
     friend ostream& operator <<(ostream& s, JulianDate a){

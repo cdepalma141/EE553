@@ -176,7 +176,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="838" />
+    <option name="x" value="541" />
+    <option name="width" value="1139" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
