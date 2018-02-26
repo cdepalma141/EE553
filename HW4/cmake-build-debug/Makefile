@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE553/HW4/cmake-build-debu
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named HW4a
 
 # Build rule for target.
@@ -122,6 +135,19 @@ HW4a: cmake_check_build_system
 HW4a/fast:
 	$(MAKE) -f CMakeFiles/HW4a.dir/build.make CMakeFiles/HW4a.dir/build
 .PHONY : HW4a/fast
+
+#=============================================================================
+# Target rules for targets named hw4b
+
+# Build rule for target.
+hw4b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hw4b
+.PHONY : hw4b
+
+# fast build rule for target.
+hw4b/fast:
+	$(MAKE) -f CMakeFiles/hw4b.dir/build.make CMakeFiles/hw4b.dir/build
+.PHONY : hw4b/fast
 
 #=============================================================================
 # Target rules for targets named HW4
@@ -163,12 +189,43 @@ HW4a.cpp.s:
 	$(MAKE) -f CMakeFiles/HW4a.dir/build.make CMakeFiles/HW4a.dir/HW4a.cpp.s
 .PHONY : HW4a.cpp.s
 
+hw4b.o: hw4b.cpp.o
+
+.PHONY : hw4b.o
+
+# target to build an object file
+hw4b.cpp.o:
+	$(MAKE) -f CMakeFiles/hw4b.dir/build.make CMakeFiles/hw4b.dir/hw4b.cpp.o
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/hw4b.cpp.o
+.PHONY : hw4b.cpp.o
+
+hw4b.i: hw4b.cpp.i
+
+.PHONY : hw4b.i
+
+# target to preprocess a source file
+hw4b.cpp.i:
+	$(MAKE) -f CMakeFiles/hw4b.dir/build.make CMakeFiles/hw4b.dir/hw4b.cpp.i
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/hw4b.cpp.i
+.PHONY : hw4b.cpp.i
+
+hw4b.s: hw4b.cpp.s
+
+.PHONY : hw4b.s
+
+# target to generate assembly for a file
+hw4b.cpp.s:
+	$(MAKE) -f CMakeFiles/hw4b.dir/build.make CMakeFiles/hw4b.dir/hw4b.cpp.s
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/hw4b.cpp.s
+.PHONY : hw4b.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -178,6 +235,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -187,6 +245,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -196,13 +255,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... main"
+	@echo "... rebuild_cache"
 	@echo "... HW4a"
+	@echo "... hw4b"
 	@echo "... HW4"
 	@echo "... HW4a.o"
 	@echo "... HW4a.i"
 	@echo "... HW4a.s"
+	@echo "... hw4b.o"
+	@echo "... hw4b.i"
+	@echo "... hw4b.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
