@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/Bus.h
+Vehicle.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/Vehicle.h
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/Car.h
+Vehicle.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/Vehicle.h
+string
+-
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/Vehicle.h
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/main.cpp
+iostream
+-
+Car.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/Car.h
+Bus.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/Bus.h
+truck.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/truck.h
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/truck.h
+truck.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim/truck.h
+

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/Bus.h
+Vehicle.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/Vehicle.h
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/Car.h
+Vehicle.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/Vehicle.h
+string
+-
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/TrafficSim.h
+vector
+-
+random
+-
+string
+-
+Vehicle.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/Vehicle.h
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/Vehicle.h
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/main.cpp
+iostream
+-
+Car.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/Car.h
+Bus.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/Bus.h
+truck.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/truck.h
+TrafficSim.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/TrafficSim.h
+
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/truck.h
+truck.h
+/Users/connordepalma/Documents/Git/EE553/session06/trafficsim2/truck.h
+
