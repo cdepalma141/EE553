@@ -1,0 +1,6 @@
+/Users/connordepalma/Documents/Git/EE553/session06/HW5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/connordepalma/Documents/Git/EE553/session06/HW5/cmake-build-debug/CMakeFiles/HW5.dir
+/Users/connordepalma/Documents/Git/EE553/session06/HW5/cmake-build-debug/CMakeFiles/PointerPractice.dir
+/Users/connordepalma/Documents/Git/EE553/session06/HW5/cmake-build-debug/CMakeFiles/main.dir
+/Users/connordepalma/Documents/Git/EE553/session06/HW5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE553/session06/HW5/cmake-build-debug/CMakeFiles/HW3c.dir

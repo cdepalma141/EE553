@@ -287,8 +287,8 @@ int main() {
 
     cout << "\nValues are for EPOCH of Jan. 1 2000, 00:00:00" << '\n' << '\n';
 
-    JulianDate newyear(2018, 1, 1, 0,0,0);
-    JulianDate valentine(2018, 2, 14, 12,0,0);
+    JulianDate newyear(2018, 1, 15, 0,0,0);
+    JulianDate valentine(2018, 5, 11, 0,0,0);
     JulianDate today; // get it from the system time: time(nullptr)
     // localtime
     JulianDate a(2973); // can calculate date based off of Julian Date since Jan. 1 2000, 00:00:00
