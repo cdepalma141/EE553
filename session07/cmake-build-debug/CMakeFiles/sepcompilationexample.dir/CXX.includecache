@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/session07/Fraction.h
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session07/sepcompilationexample.cpp
+iostream
+-
+Fraction.h
+/Users/connordepalma/Documents/Git/EE553/session07/Fraction.h
+
