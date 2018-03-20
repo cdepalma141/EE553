@@ -150,6 +150,19 @@ sepcompilationexample/fast:
 .PHONY : sepcompilationexample/fast
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named GravSim
 
 # Build rule for target.
@@ -283,6 +296,33 @@ gravitysim.cpp.s:
 	$(MAKE) -f CMakeFiles/gravitysim.dir/build.make CMakeFiles/gravitysim.dir/gravitysim.cpp.s
 .PHONY : gravitysim.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 sepcompilationexample.o: sepcompilationexample.cpp.o
 
 .PHONY : sepcompilationexample.o
@@ -320,6 +360,7 @@ help:
 	@echo "... gravitysim"
 	@echo "... Fraction"
 	@echo "... sepcompilationexample"
+	@echo "... main"
 	@echo "... GravSim"
 	@echo "... rebuild_cache"
 	@echo "... 05static"
@@ -335,6 +376,9 @@ help:
 	@echo "... gravitysim.o"
 	@echo "... gravitysim.i"
 	@echo "... gravitysim.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... sepcompilationexample.o"
 	@echo "... sepcompilationexample.i"
 	@echo "... sepcompilationexample.s"

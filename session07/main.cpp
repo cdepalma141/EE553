@@ -13,7 +13,11 @@ int main() {
     }
     cout << "\n\n";
     for(int i = 23; i > 2; i = i/3 +1){
-        cout << i+1;
+        cout << i+1 << '\n';
     }
 
+
+    double d = 5/2 * 3.0;
+
+    cout << d;
 }
