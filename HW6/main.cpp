@@ -1,67 +1,35 @@
+
+
 #include <iostream>
+#include "Postscript.h"
 
 using namespace std;
 
-class a;
-
-
-class fraction {
-
-private:
-    int num, den;
-
-public:
-
-    fraction (int n = 0, int d = 1) : num(n), den(d) {}
-
-    fraction add(fraction a) const {
-        return fraction(num*a.den+den*a.num,den*a.den);
-    }
-
-    friend fraction operator +(fraction a, fraction b) {
-
-        return fraction(a.num*b.den+b.num*a.den, a.den*b.den);
-    }
-
-    fraction operator -() const {
-        return fraction(-num,den);
-
-    }
-
-
-
-    void print() const {
-
-        cout << num << '/' << den << '\n';
-    }
-
-    friend ostream& operator <<(ostream& s, fraction a){
-        return s << a.num << '/' << a.den << '\n';
-
-    }
-
-
-};
-
-
-
 int main() {
+    Postscript p("test.ps");
+    p.line(0,0, 300,400);  // 0 0 moveto 300 400 lineto stroke
+    /*
+    int r = 255, g = 0, b = 0;
+    p.setColor(int r, int g, int b);
+     */
+    int x = 0, y = 0, w = 100, h = 100;
+    p.drawRect(x, y, w, h);   // x y moveto x+w y lineto x+w y+h lineto ... closepath stroke
+   /*
+    p.fillRect(x, y, w, h);   // x y moveto x+w y lineto x+w y+h lineto ... closepath fill
+    p.setFillColor(int r, int g, int b); // 1.0 0.5 0 setrgbcolor
+    // optional, figure out how you want to manage color
+    p.setStrokeColor(int r, int g, int b);
+    p.drawTriangle(x1,y1, x2,y2, x3,y3);
+    p.fillTriangle(x1,y1, x2,y2, x3,y3);
+    p.drawCircle(x,y,r); // x y 0 360 r arc stroke
+    p.text(x,y, "testing testing 123"); // look it up  setfont  (ABC) show
 
-    const fraction a(1,3);
-    const fraction b(4,7);
+    p.grid(300, 50, 500, 400, 50, 700);
 
-    const fraction z = a.add(b);
+    */
 
-    const fraction c = a + b;
 
-    const fraction d = -a;
-
-    a.print();
-
-    cout << a << '\n';
-    cout << b << '\n';
-    cout << c << '\n';
-    cout << d << '\n';
-    cout << z << '\n';
 
 }
+
+

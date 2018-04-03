@@ -1,6 +1,5 @@
 /Users/connordepalma/Documents/Git/EE553/HW6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/connordepalma/Documents/Git/EE553/HW6/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/connordepalma/Documents/Git/EE553/HW6/cmake-build-debug/CMakeFiles/practice.dir
-/Users/connordepalma/Documents/Git/EE553/HW6/cmake-build-debug/CMakeFiles/Postscript.dir
+/Users/connordepalma/Documents/Git/EE553/HW6/cmake-build-debug/CMakeFiles/Postscript2.dir
 /Users/connordepalma/Documents/Git/EE553/HW6/cmake-build-debug/CMakeFiles/main.dir
-/Users/connordepalma/Documents/Git/EE553/HW6/cmake-build-debug/CMakeFiles/HW6.dir
