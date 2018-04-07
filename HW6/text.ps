@@ -1,0 +1,18 @@
+/drawgrid {
+    /ny exch def
+    /ymax exch def
+    /ymin exch def
+    /nx exch def
+    /xmax exch def
+    /xmin exch def
+    ymin ymax ymin sub ny 1 sub div ymax {
+	dup dup xmin exch moveto xmax exch lineto stroke
+    } for
+    xmin xmax xmin sub nx 1 sub div xmax {
+	dup dup ymin moveto ymax lineto stroke
+    } for
+} bind def
+
+
+
+300 500 50 400 700 50 drawgrid
