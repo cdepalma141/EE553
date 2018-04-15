@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/session10.dir/main.cpp.o"
   "CMakeFiles/session10.dir/dynamicmemory.cpp.o"
   "CMakeFiles/session10.dir/matrix.cpp.o"
+  "CMakeFiles/session10.dir/practice1.cpp.o"
   "session10.pdb"
   "session10"
 )

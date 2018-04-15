@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named session10
+# Target rules for targets named main
 
 # Build rule for target.
-session10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 session10
-.PHONY : session10
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-session10/fast:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/build
-.PHONY : session10/fast
-
-dynamicmemory.o: dynamicmemory.cpp.o
-
-.PHONY : dynamicmemory.o
-
-# target to build an object file
-dynamicmemory.cpp.o:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/dynamicmemory.cpp.o
-.PHONY : dynamicmemory.cpp.o
-
-dynamicmemory.i: dynamicmemory.cpp.i
-
-.PHONY : dynamicmemory.i
-
-# target to preprocess a source file
-dynamicmemory.cpp.i:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/dynamicmemory.cpp.i
-.PHONY : dynamicmemory.cpp.i
-
-dynamicmemory.s: dynamicmemory.cpp.s
-
-.PHONY : dynamicmemory.s
-
-# target to generate assembly for a file
-dynamicmemory.cpp.s:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/dynamicmemory.cpp.s
-.PHONY : dynamicmemory.cpp.s
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 main.o: main.cpp.o
 
@@ -156,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,35 +147,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-matrix.o: matrix.cpp.o
-
-.PHONY : matrix.o
-
-# target to build an object file
-matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/matrix.cpp.o
-.PHONY : matrix.cpp.o
-
-matrix.i: matrix.cpp.i
-
-.PHONY : matrix.i
-
-# target to preprocess a source file
-matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/matrix.cpp.i
-.PHONY : matrix.cpp.i
-
-matrix.s: matrix.cpp.s
-
-.PHONY : matrix.s
-
-# target to generate assembly for a file
-matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/session10.dir/build.make CMakeFiles/session10.dir/matrix.cpp.s
-.PHONY : matrix.cpp.s
 
 # Help Target
 help:
@@ -212,16 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... session10"
-	@echo "... dynamicmemory.o"
-	@echo "... dynamicmemory.i"
-	@echo "... dynamicmemory.s"
+	@echo "... main"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... matrix.o"
-	@echo "... matrix.i"
-	@echo "... matrix.s"
 .PHONY : help
 
 

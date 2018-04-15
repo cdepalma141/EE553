@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/connordepalma/Documents/Git/EE553/session10/dynamicmemory.cpp" "/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/session10.dir/dynamicmemory.cpp.o"
   "/Users/connordepalma/Documents/Git/EE553/session10/main.cpp" "/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/session10.dir/main.cpp.o"
   "/Users/connordepalma/Documents/Git/EE553/session10/matrix.cpp" "/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/session10.dir/matrix.cpp.o"
+  "/Users/connordepalma/Documents/Git/EE553/session10/practice1.cpp" "/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/session10.dir/practice1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

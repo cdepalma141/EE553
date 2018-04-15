@@ -3,4 +3,5 @@ project(session10)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(session10 main.cpp dynamicmemory.cpp matrix.cpp)
+
+add_executable(main main.cpp)
