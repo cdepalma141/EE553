@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/session10/dynamicmemory.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session10/main.cpp
+
+/Users/connordepalma/Documents/Git/EE553/session10/matrix.cpp
+

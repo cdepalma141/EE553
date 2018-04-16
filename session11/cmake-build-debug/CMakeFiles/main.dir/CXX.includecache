@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/session11/templatelist/List.h
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session11/templatelist/main.cpp
+List.h
+/Users/connordepalma/Documents/Git/EE553/session11/templatelist/List.h
+iostream
+-
+

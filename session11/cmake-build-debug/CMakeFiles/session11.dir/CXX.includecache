@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/session11/00reveiw.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session11/01reviewmemory.cpp
+iostream
+-
+memory.h
+-
+
+/Users/connordepalma/Documents/Git/EE553/session11/02reviewdynamicmeminclasses.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session11/03templatefunctions.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session11/04sortingonkeys.cpp
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session11/main.cpp
+iostream
+-
+
