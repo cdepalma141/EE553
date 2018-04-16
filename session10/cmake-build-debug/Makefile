@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named practice2
+
+# Build rule for target.
+practice2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practice2
+.PHONY : practice2
+
+# fast build rule for target.
+practice2/fast:
+	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/build
+.PHONY : practice2/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -150,6 +163,36 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+practice2.o: practice2.cpp.o
+
+.PHONY : practice2.o
+
+# target to build an object file
+practice2.cpp.o:
+	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/practice2.cpp.o
+.PHONY : practice2.cpp.o
+
+practice2.i: practice2.cpp.i
+
+.PHONY : practice2.i
+
+# target to preprocess a source file
+practice2.cpp.i:
+	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/practice2.cpp.i
+.PHONY : practice2.cpp.i
+
+practice2.s: practice2.cpp.s
+
+.PHONY : practice2.s
+
+# target to generate assembly for a file
+practice2.cpp.s:
+	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/practice2.cpp.s
+.PHONY : practice2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +201,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... practice2"
 	@echo "... main"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... practice2.o"
+	@echo "... practice2.i"
+	@echo "... practice2.s"
 .PHONY : help
 
 

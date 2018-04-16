@@ -4,4 +4,6 @@ project(session10)
 set(CMAKE_CXX_STANDARD 11)
 
 
-add_executable(main main.cpp)
+
+add_executable(main main.cpp practice2.cpp)
+add_executable(practice2 practice2.cpp listPrac.h)
