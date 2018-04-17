@@ -36,9 +36,9 @@ public:
     }
     List& operator =(const List& orig) {
         List temp(orig); // same as list temp = orig
-        std::swap(data, temp.data);
         used = temp.used;
         capacity = temp.capacity;
+        std::swap(data, temp.data);
         return *this;
     }
 

@@ -1,4 +1,6 @@
-/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/practice2.dir
 /Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/main.dir
+/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/practicepoly.dir
+/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/practice2.dir
+/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/connordepalma/Documents/Git/EE553/session10/cmake-build-debug/CMakeFiles/pracitcedynamicString.dir

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE553/session10/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named practicepoly
+
+# Build rule for target.
+practicepoly: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicepoly
+.PHONY : practicepoly
+
+# fast build rule for target.
+practicepoly/fast:
+	$(MAKE) -f CMakeFiles/practicepoly.dir/build.make CMakeFiles/practicepoly.dir/build
+.PHONY : practicepoly/fast
+
+#=============================================================================
 # Target rules for targets named practice2
 
 # Build rule for target.
@@ -124,17 +150,17 @@ practice2/fast:
 .PHONY : practice2/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named pracitcedynamicString
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+pracitcedynamicString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pracitcedynamicString
+.PHONY : pracitcedynamicString
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+pracitcedynamicString/fast:
+	$(MAKE) -f CMakeFiles/pracitcedynamicString.dir/build.make CMakeFiles/pracitcedynamicString.dir/build
+.PHONY : pracitcedynamicString/fast
 
 main.o: main.cpp.o
 
@@ -163,14 +189,41 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pracitcedynamicString.o: pracitcedynamicString.cpp.o
+
+.PHONY : pracitcedynamicString.o
+
+# target to build an object file
+pracitcedynamicString.cpp.o:
+	$(MAKE) -f CMakeFiles/pracitcedynamicString.dir/build.make CMakeFiles/pracitcedynamicString.dir/pracitcedynamicString.cpp.o
+.PHONY : pracitcedynamicString.cpp.o
+
+pracitcedynamicString.i: pracitcedynamicString.cpp.i
+
+.PHONY : pracitcedynamicString.i
+
+# target to preprocess a source file
+pracitcedynamicString.cpp.i:
+	$(MAKE) -f CMakeFiles/pracitcedynamicString.dir/build.make CMakeFiles/pracitcedynamicString.dir/pracitcedynamicString.cpp.i
+.PHONY : pracitcedynamicString.cpp.i
+
+pracitcedynamicString.s: pracitcedynamicString.cpp.s
+
+.PHONY : pracitcedynamicString.s
+
+# target to generate assembly for a file
+pracitcedynamicString.cpp.s:
+	$(MAKE) -f CMakeFiles/pracitcedynamicString.dir/build.make CMakeFiles/pracitcedynamicString.dir/pracitcedynamicString.cpp.s
+.PHONY : pracitcedynamicString.cpp.s
+
 practice2.o: practice2.cpp.o
 
 .PHONY : practice2.o
 
 # target to build an object file
 practice2.cpp.o:
-	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.o
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/practice2.cpp.o
+	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.o
 .PHONY : practice2.cpp.o
 
 practice2.i: practice2.cpp.i
@@ -179,8 +232,8 @@ practice2.i: practice2.cpp.i
 
 # target to preprocess a source file
 practice2.cpp.i:
-	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.i
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/practice2.cpp.i
+	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.i
 .PHONY : practice2.cpp.i
 
 practice2.s: practice2.cpp.s
@@ -189,9 +242,36 @@ practice2.s: practice2.cpp.s
 
 # target to generate assembly for a file
 practice2.cpp.s:
-	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.s
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/practice2.cpp.s
+	$(MAKE) -f CMakeFiles/practice2.dir/build.make CMakeFiles/practice2.dir/practice2.cpp.s
 .PHONY : practice2.cpp.s
+
+practicepoly.o: practicepoly.cpp.o
+
+.PHONY : practicepoly.o
+
+# target to build an object file
+practicepoly.cpp.o:
+	$(MAKE) -f CMakeFiles/practicepoly.dir/build.make CMakeFiles/practicepoly.dir/practicepoly.cpp.o
+.PHONY : practicepoly.cpp.o
+
+practicepoly.i: practicepoly.cpp.i
+
+.PHONY : practicepoly.i
+
+# target to preprocess a source file
+practicepoly.cpp.i:
+	$(MAKE) -f CMakeFiles/practicepoly.dir/build.make CMakeFiles/practicepoly.dir/practicepoly.cpp.i
+.PHONY : practicepoly.cpp.i
+
+practicepoly.s: practicepoly.cpp.s
+
+.PHONY : practicepoly.s
+
+# target to generate assembly for a file
+practicepoly.cpp.s:
+	$(MAKE) -f CMakeFiles/practicepoly.dir/build.make CMakeFiles/practicepoly.dir/practicepoly.cpp.s
+.PHONY : practicepoly.cpp.s
 
 # Help Target
 help:
@@ -199,16 +279,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... practice2"
 	@echo "... main"
+	@echo "... practicepoly"
+	@echo "... practice2"
+	@echo "... rebuild_cache"
+	@echo "... pracitcedynamicString"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pracitcedynamicString.o"
+	@echo "... pracitcedynamicString.i"
+	@echo "... pracitcedynamicString.s"
 	@echo "... practice2.o"
 	@echo "... practice2.i"
 	@echo "... practice2.s"
+	@echo "... practicepoly.o"
+	@echo "... practicepoly.i"
+	@echo "... practicepoly.s"
 .PHONY : help
 
 

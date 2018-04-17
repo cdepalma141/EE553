@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 00reveiw
+# Target rules for targets named scratch
 
 # Build rule for target.
-00reveiw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 00reveiw
-.PHONY : 00reveiw
+scratch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scratch
+.PHONY : scratch
 
 # fast build rule for target.
-00reveiw/fast:
-	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/build
-.PHONY : 00reveiw/fast
+scratch/fast:
+	$(MAKE) -f CMakeFiles/scratch.dir/build.make CMakeFiles/scratch.dir/build
+.PHONY : scratch/fast
 
 #=============================================================================
 # Target rules for targets named 04sortingonkeys
@@ -161,6 +161,19 @@ main/fast:
 03templatefunctions/fast:
 	$(MAKE) -f CMakeFiles/03templatefunctions.dir/build.make CMakeFiles/03templatefunctions.dir/build
 .PHONY : 03templatefunctions/fast
+
+#=============================================================================
+# Target rules for targets named 00reveiw
+
+# Build rule for target.
+00reveiw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 00reveiw
+.PHONY : 00reveiw
+
+# fast build rule for target.
+00reveiw/fast:
+	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/build
+.PHONY : 00reveiw/fast
 
 00reveiw.o: 00reveiw.cpp.o
 
@@ -270,14 +283,41 @@ main/fast:
 	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/05templatelist.cpp.s
 .PHONY : 05templatelist.cpp.s
 
+Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.o: Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.o
+
+.PHONY : Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.o
+
+# target to build an object file
+Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.o:
+	$(MAKE) -f CMakeFiles/scratch.dir/build.make CMakeFiles/scratch.dir/Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.o
+.PHONY : Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.o
+
+Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.i: Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.i
+
+.PHONY : Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.i
+
+# target to preprocess a source file
+Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.i:
+	$(MAKE) -f CMakeFiles/scratch.dir/build.make CMakeFiles/scratch.dir/Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.i
+.PHONY : Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.i
+
+Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.s: Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.s
+
+.PHONY : Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.s
+
+# target to generate assembly for a file
+Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.s:
+	$(MAKE) -f CMakeFiles/scratch.dir/build.make CMakeFiles/scratch.dir/Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.s
+.PHONY : Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp.s
+
 templatelist/main.o: templatelist/main.cpp.o
 
 .PHONY : templatelist/main.o
 
 # target to build an object file
 templatelist/main.cpp.o:
-	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/templatelist/main.cpp.o
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/templatelist/main.cpp.o
+	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/templatelist/main.cpp.o
 .PHONY : templatelist/main.cpp.o
 
 templatelist/main.i: templatelist/main.cpp.i
@@ -286,8 +326,8 @@ templatelist/main.i: templatelist/main.cpp.i
 
 # target to preprocess a source file
 templatelist/main.cpp.i:
-	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/templatelist/main.cpp.i
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/templatelist/main.cpp.i
+	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/templatelist/main.cpp.i
 .PHONY : templatelist/main.cpp.i
 
 templatelist/main.s: templatelist/main.cpp.s
@@ -296,8 +336,8 @@ templatelist/main.s: templatelist/main.cpp.s
 
 # target to generate assembly for a file
 templatelist/main.cpp.s:
-	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/templatelist/main.cpp.s
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/templatelist/main.cpp.s
+	$(MAKE) -f CMakeFiles/00reveiw.dir/build.make CMakeFiles/00reveiw.dir/templatelist/main.cpp.s
 .PHONY : templatelist/main.cpp.s
 
 # Help Target
@@ -307,11 +347,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... 00reveiw"
-	@echo "... edit_cache"
+	@echo "... scratch"
 	@echo "... 04sortingonkeys"
 	@echo "... main"
 	@echo "... 03templatefunctions"
+	@echo "... edit_cache"
+	@echo "... 00reveiw"
 	@echo "... 00reveiw.o"
 	@echo "... 00reveiw.i"
 	@echo "... 00reveiw.s"
@@ -324,6 +365,9 @@ help:
 	@echo "... 05templatelist.o"
 	@echo "... 05templatelist.i"
 	@echo "... 05templatelist.s"
+	@echo "... Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.o"
+	@echo "... Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.i"
+	@echo "... Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.s"
 	@echo "... templatelist/main.o"
 	@echo "... templatelist/main.i"
 	@echo "... templatelist/main.s"

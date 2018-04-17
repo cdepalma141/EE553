@@ -8,3 +8,4 @@ add_executable(03templatefunctions 03templatefunctions.cpp)
 add_executable(04sortingonkeys 04sortingonkeys.cpp)
 
 add_executable(main templatelist/main.cpp)
+add_executable(scratch /Users/connordepalma/Library/Preferences/CLion2018.1/scratches/scratch.cpp)
