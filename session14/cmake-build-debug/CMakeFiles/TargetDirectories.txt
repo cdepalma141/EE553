@@ -1,4 +1,8 @@
 /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/moarpractice.dir
+/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/morepractice.dir
+/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/mainlist2.dir
+/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/mainlist.dir
 /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/session14.dir
 /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/threading2.dir

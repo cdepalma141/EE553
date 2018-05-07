@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named moarpractice
+
+# Build rule for target.
+moarpractice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moarpractice
+.PHONY : moarpractice
+
+# fast build rule for target.
+moarpractice/fast:
+	$(MAKE) -f CMakeFiles/moarpractice.dir/build.make CMakeFiles/moarpractice.dir/build
+.PHONY : moarpractice/fast
+
+#=============================================================================
+# Target rules for targets named morepractice
+
+# Build rule for target.
+morepractice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 morepractice
+.PHONY : morepractice
+
+# fast build rule for target.
+morepractice/fast:
+	$(MAKE) -f CMakeFiles/morepractice.dir/build.make CMakeFiles/morepractice.dir/build
+.PHONY : morepractice/fast
+
+#=============================================================================
+# Target rules for targets named mainlist2
+
+# Build rule for target.
+mainlist2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mainlist2
+.PHONY : mainlist2
+
+# fast build rule for target.
+mainlist2/fast:
+	$(MAKE) -f CMakeFiles/mainlist2.dir/build.make CMakeFiles/mainlist2.dir/build
+.PHONY : mainlist2/fast
+
+#=============================================================================
+# Target rules for targets named mainlist
+
+# Build rule for target.
+mainlist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mainlist
+.PHONY : mainlist
+
+# fast build rule for target.
+mainlist/fast:
+	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/build
+.PHONY : mainlist/fast
+
+#=============================================================================
 # Target rules for targets named session14
 
 # Build rule for target.
@@ -204,6 +256,168 @@ Account.cpp.s:
 	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/Account.cpp.s
 	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/Account.cpp.s
 .PHONY : Account.cpp.s
+
+Practice/List.o: Practice/List.cpp.o
+
+.PHONY : Practice/List.o
+
+# target to build an object file
+Practice/List.cpp.o:
+	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/Practice/List.cpp.o
+.PHONY : Practice/List.cpp.o
+
+Practice/List.i: Practice/List.cpp.i
+
+.PHONY : Practice/List.i
+
+# target to preprocess a source file
+Practice/List.cpp.i:
+	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/Practice/List.cpp.i
+.PHONY : Practice/List.cpp.i
+
+Practice/List.s: Practice/List.cpp.s
+
+.PHONY : Practice/List.s
+
+# target to generate assembly for a file
+Practice/List.cpp.s:
+	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/Practice/List.cpp.s
+.PHONY : Practice/List.cpp.s
+
+Practice/mainlist.o: Practice/mainlist.cpp.o
+
+.PHONY : Practice/mainlist.o
+
+# target to build an object file
+Practice/mainlist.cpp.o:
+	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/Practice/mainlist.cpp.o
+.PHONY : Practice/mainlist.cpp.o
+
+Practice/mainlist.i: Practice/mainlist.cpp.i
+
+.PHONY : Practice/mainlist.i
+
+# target to preprocess a source file
+Practice/mainlist.cpp.i:
+	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/Practice/mainlist.cpp.i
+.PHONY : Practice/mainlist.cpp.i
+
+Practice/mainlist.s: Practice/mainlist.cpp.s
+
+.PHONY : Practice/mainlist.s
+
+# target to generate assembly for a file
+Practice/mainlist.cpp.s:
+	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/Practice/mainlist.cpp.s
+.PHONY : Practice/mainlist.cpp.s
+
+Practice/mainlist2.o: Practice/mainlist2.cpp.o
+
+.PHONY : Practice/mainlist2.o
+
+# target to build an object file
+Practice/mainlist2.cpp.o:
+	$(MAKE) -f CMakeFiles/mainlist2.dir/build.make CMakeFiles/mainlist2.dir/Practice/mainlist2.cpp.o
+.PHONY : Practice/mainlist2.cpp.o
+
+Practice/mainlist2.i: Practice/mainlist2.cpp.i
+
+.PHONY : Practice/mainlist2.i
+
+# target to preprocess a source file
+Practice/mainlist2.cpp.i:
+	$(MAKE) -f CMakeFiles/mainlist2.dir/build.make CMakeFiles/mainlist2.dir/Practice/mainlist2.cpp.i
+.PHONY : Practice/mainlist2.cpp.i
+
+Practice/mainlist2.s: Practice/mainlist2.cpp.s
+
+.PHONY : Practice/mainlist2.s
+
+# target to generate assembly for a file
+Practice/mainlist2.cpp.s:
+	$(MAKE) -f CMakeFiles/mainlist2.dir/build.make CMakeFiles/mainlist2.dir/Practice/mainlist2.cpp.s
+.PHONY : Practice/mainlist2.cpp.s
+
+Practice/moarpractice.o: Practice/moarpractice.cpp.o
+
+.PHONY : Practice/moarpractice.o
+
+# target to build an object file
+Practice/moarpractice.cpp.o:
+	$(MAKE) -f CMakeFiles/moarpractice.dir/build.make CMakeFiles/moarpractice.dir/Practice/moarpractice.cpp.o
+.PHONY : Practice/moarpractice.cpp.o
+
+Practice/moarpractice.i: Practice/moarpractice.cpp.i
+
+.PHONY : Practice/moarpractice.i
+
+# target to preprocess a source file
+Practice/moarpractice.cpp.i:
+	$(MAKE) -f CMakeFiles/moarpractice.dir/build.make CMakeFiles/moarpractice.dir/Practice/moarpractice.cpp.i
+.PHONY : Practice/moarpractice.cpp.i
+
+Practice/moarpractice.s: Practice/moarpractice.cpp.s
+
+.PHONY : Practice/moarpractice.s
+
+# target to generate assembly for a file
+Practice/moarpractice.cpp.s:
+	$(MAKE) -f CMakeFiles/moarpractice.dir/build.make CMakeFiles/moarpractice.dir/Practice/moarpractice.cpp.s
+.PHONY : Practice/moarpractice.cpp.s
+
+Practice/morepractice.o: Practice/morepractice.cpp.o
+
+.PHONY : Practice/morepractice.o
+
+# target to build an object file
+Practice/morepractice.cpp.o:
+	$(MAKE) -f CMakeFiles/morepractice.dir/build.make CMakeFiles/morepractice.dir/Practice/morepractice.cpp.o
+.PHONY : Practice/morepractice.cpp.o
+
+Practice/morepractice.i: Practice/morepractice.cpp.i
+
+.PHONY : Practice/morepractice.i
+
+# target to preprocess a source file
+Practice/morepractice.cpp.i:
+	$(MAKE) -f CMakeFiles/morepractice.dir/build.make CMakeFiles/morepractice.dir/Practice/morepractice.cpp.i
+.PHONY : Practice/morepractice.cpp.i
+
+Practice/morepractice.s: Practice/morepractice.cpp.s
+
+.PHONY : Practice/morepractice.s
+
+# target to generate assembly for a file
+Practice/morepractice.cpp.s:
+	$(MAKE) -f CMakeFiles/morepractice.dir/build.make CMakeFiles/morepractice.dir/Practice/morepractice.cpp.s
+.PHONY : Practice/morepractice.cpp.s
+
+Practice/practice.o: Practice/practice.cpp.o
+
+.PHONY : Practice/practice.o
+
+# target to build an object file
+Practice/practice.cpp.o:
+	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/Practice/practice.cpp.o
+.PHONY : Practice/practice.cpp.o
+
+Practice/practice.i: Practice/practice.cpp.i
+
+.PHONY : Practice/practice.i
+
+# target to preprocess a source file
+Practice/practice.cpp.i:
+	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/Practice/practice.cpp.i
+.PHONY : Practice/practice.cpp.i
+
+Practice/practice.s: Practice/practice.cpp.s
+
+.PHONY : Practice/practice.s
+
+# target to generate assembly for a file
+Practice/practice.cpp.s:
+	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/Practice/practice.cpp.s
+.PHONY : Practice/practice.cpp.s
 
 fastthreadedloop.o: fastthreadedloop.cpp.o
 
@@ -356,6 +570,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... moarpractice"
+	@echo "... morepractice"
+	@echo "... mainlist2"
+	@echo "... mainlist"
 	@echo "... rebuild_cache"
 	@echo "... session14"
 	@echo "... threading2"
@@ -365,6 +583,24 @@ help:
 	@echo "... Account.o"
 	@echo "... Account.i"
 	@echo "... Account.s"
+	@echo "... Practice/List.o"
+	@echo "... Practice/List.i"
+	@echo "... Practice/List.s"
+	@echo "... Practice/mainlist.o"
+	@echo "... Practice/mainlist.i"
+	@echo "... Practice/mainlist.s"
+	@echo "... Practice/mainlist2.o"
+	@echo "... Practice/mainlist2.i"
+	@echo "... Practice/mainlist2.s"
+	@echo "... Practice/moarpractice.o"
+	@echo "... Practice/moarpractice.i"
+	@echo "... Practice/moarpractice.s"
+	@echo "... Practice/morepractice.o"
+	@echo "... Practice/morepractice.i"
+	@echo "... Practice/morepractice.s"
+	@echo "... Practice/practice.o"
+	@echo "... Practice/practice.i"
+	@echo "... Practice/practice.s"
 	@echo "... fastthreadedloop.o"
 	@echo "... fastthreadedloop.i"
 	@echo "... fastthreadedloop.s"

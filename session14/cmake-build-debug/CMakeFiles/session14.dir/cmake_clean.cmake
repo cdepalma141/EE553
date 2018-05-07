@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/session14.dir/Account.cpp.o"
   "CMakeFiles/session14.dir/primes.cpp.o"
   "CMakeFiles/session14.dir/fastthreadedloop.cpp.o"
+  "CMakeFiles/session14.dir/Practice/practice.cpp.o"
   "session14.pdb"
   "session14"
 )
