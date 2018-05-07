@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/session14/Practice/List.cpp
+List.h
+/Users/connordepalma/Documents/Git/EE553/session14/Practice/List.h
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session14/Practice/List.h
+iostream
+-
+
+/Users/connordepalma/Documents/Git/EE553/session14/Practice/mainlist.cpp
+List.h
+/Users/connordepalma/Documents/Git/EE553/session14/Practice/List.h
+iostream
+-
+
