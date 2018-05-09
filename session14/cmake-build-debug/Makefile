@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE553/session14/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -150,6 +150,58 @@ mainlist2/fast:
 .PHONY : mainlist2/fast
 
 #=============================================================================
+# Target rules for targets named string
+
+# Build rule for target.
+string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string
+.PHONY : string
+
+# fast build rule for target.
+string/fast:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
+.PHONY : string/fast
+
+#=============================================================================
+# Target rules for targets named practice
+
+# Build rule for target.
+practice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practice
+.PHONY : practice
+
+# fast build rule for target.
+practice/fast:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/build
+.PHONY : practice/fast
+
+#=============================================================================
+# Target rules for targets named main3
+
+# Build rule for target.
+main3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main3
+.PHONY : main3
+
+# fast build rule for target.
+main3/fast:
+	$(MAKE) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/build
+.PHONY : main3/fast
+
+#=============================================================================
+# Target rules for targets named threading
+
+# Build rule for target.
+threading: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 threading
+.PHONY : threading
+
+# fast build rule for target.
+threading/fast:
+	$(MAKE) -f CMakeFiles/threading.dir/build.make CMakeFiles/threading.dir/build
+.PHONY : threading/fast
+
+#=============================================================================
 # Target rules for targets named mainlist
 
 # Build rule for target.
@@ -161,6 +213,19 @@ mainlist: cmake_check_build_system
 mainlist/fast:
 	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/build
 .PHONY : mainlist/fast
+
+#=============================================================================
+# Target rules for targets named poop
+
+# Build rule for target.
+poop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 poop
+.PHONY : poop
+
+# fast build rule for target.
+poop/fast:
+	$(MAKE) -f CMakeFiles/poop.dir/build.make CMakeFiles/poop.dir/build
+.PHONY : poop/fast
 
 #=============================================================================
 # Target rules for targets named session14
@@ -213,19 +278,6 @@ Account: cmake_check_build_system
 Account/fast:
 	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/build
 .PHONY : Account/fast
-
-#=============================================================================
-# Target rules for targets named threading
-
-# Build rule for target.
-threading: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 threading
-.PHONY : threading
-
-# fast build rule for target.
-threading/fast:
-	$(MAKE) -f CMakeFiles/threading.dir/build.make CMakeFiles/threading.dir/build
-.PHONY : threading/fast
 
 Account.o: Account.cpp.o
 
@@ -283,6 +335,90 @@ Practice/List.s: Practice/List.cpp.s
 Practice/List.cpp.s:
 	$(MAKE) -f CMakeFiles/mainlist.dir/build.make CMakeFiles/mainlist.dir/Practice/List.cpp.s
 .PHONY : Practice/List.cpp.s
+
+Practice/StringPractice/main3.o: Practice/StringPractice/main3.cpp.o
+
+.PHONY : Practice/StringPractice/main3.o
+
+# target to build an object file
+Practice/StringPractice/main3.cpp.o:
+	$(MAKE) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/Practice/StringPractice/main3.cpp.o
+.PHONY : Practice/StringPractice/main3.cpp.o
+
+Practice/StringPractice/main3.i: Practice/StringPractice/main3.cpp.i
+
+.PHONY : Practice/StringPractice/main3.i
+
+# target to preprocess a source file
+Practice/StringPractice/main3.cpp.i:
+	$(MAKE) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/Practice/StringPractice/main3.cpp.i
+.PHONY : Practice/StringPractice/main3.cpp.i
+
+Practice/StringPractice/main3.s: Practice/StringPractice/main3.cpp.s
+
+.PHONY : Practice/StringPractice/main3.s
+
+# target to generate assembly for a file
+Practice/StringPractice/main3.cpp.s:
+	$(MAKE) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/Practice/StringPractice/main3.cpp.s
+.PHONY : Practice/StringPractice/main3.cpp.s
+
+Practice/StringPractice/poop.o: Practice/StringPractice/poop.cpp.o
+
+.PHONY : Practice/StringPractice/poop.o
+
+# target to build an object file
+Practice/StringPractice/poop.cpp.o:
+	$(MAKE) -f CMakeFiles/poop.dir/build.make CMakeFiles/poop.dir/Practice/StringPractice/poop.cpp.o
+.PHONY : Practice/StringPractice/poop.cpp.o
+
+Practice/StringPractice/poop.i: Practice/StringPractice/poop.cpp.i
+
+.PHONY : Practice/StringPractice/poop.i
+
+# target to preprocess a source file
+Practice/StringPractice/poop.cpp.i:
+	$(MAKE) -f CMakeFiles/poop.dir/build.make CMakeFiles/poop.dir/Practice/StringPractice/poop.cpp.i
+.PHONY : Practice/StringPractice/poop.cpp.i
+
+Practice/StringPractice/poop.s: Practice/StringPractice/poop.cpp.s
+
+.PHONY : Practice/StringPractice/poop.s
+
+# target to generate assembly for a file
+Practice/StringPractice/poop.cpp.s:
+	$(MAKE) -f CMakeFiles/poop.dir/build.make CMakeFiles/poop.dir/Practice/StringPractice/poop.cpp.s
+.PHONY : Practice/StringPractice/poop.cpp.s
+
+Practice/StringPractice/string.o: Practice/StringPractice/string.cpp.o
+
+.PHONY : Practice/StringPractice/string.o
+
+# target to build an object file
+Practice/StringPractice/string.cpp.o:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/Practice/StringPractice/string.cpp.o
+	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/Practice/StringPractice/string.cpp.o
+.PHONY : Practice/StringPractice/string.cpp.o
+
+Practice/StringPractice/string.i: Practice/StringPractice/string.cpp.i
+
+.PHONY : Practice/StringPractice/string.i
+
+# target to preprocess a source file
+Practice/StringPractice/string.cpp.i:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/Practice/StringPractice/string.cpp.i
+	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/Practice/StringPractice/string.cpp.i
+.PHONY : Practice/StringPractice/string.cpp.i
+
+Practice/StringPractice/string.s: Practice/StringPractice/string.cpp.s
+
+.PHONY : Practice/StringPractice/string.s
+
+# target to generate assembly for a file
+Practice/StringPractice/string.cpp.s:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/Practice/StringPractice/string.cpp.s
+	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/Practice/StringPractice/string.cpp.s
+.PHONY : Practice/StringPractice/string.cpp.s
 
 Practice/mainlist.o: Practice/mainlist.cpp.o
 
@@ -398,6 +534,7 @@ Practice/practice.o: Practice/practice.cpp.o
 
 # target to build an object file
 Practice/practice.cpp.o:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/Practice/practice.cpp.o
 	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/Practice/practice.cpp.o
 .PHONY : Practice/practice.cpp.o
 
@@ -407,6 +544,7 @@ Practice/practice.i: Practice/practice.cpp.i
 
 # target to preprocess a source file
 Practice/practice.cpp.i:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/Practice/practice.cpp.i
 	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/Practice/practice.cpp.i
 .PHONY : Practice/practice.cpp.i
 
@@ -416,6 +554,7 @@ Practice/practice.s: Practice/practice.cpp.s
 
 # target to generate assembly for a file
 Practice/practice.cpp.s:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/Practice/practice.cpp.s
 	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/Practice/practice.cpp.s
 .PHONY : Practice/practice.cpp.s
 
@@ -509,8 +648,8 @@ threading.o: threading.cpp.o
 
 # target to build an object file
 threading.cpp.o:
-	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/threading.cpp.o
 	$(MAKE) -f CMakeFiles/threading.dir/build.make CMakeFiles/threading.dir/threading.cpp.o
+	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/threading.cpp.o
 .PHONY : threading.cpp.o
 
 threading.i: threading.cpp.i
@@ -519,8 +658,8 @@ threading.i: threading.cpp.i
 
 # target to preprocess a source file
 threading.cpp.i:
-	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/threading.cpp.i
 	$(MAKE) -f CMakeFiles/threading.dir/build.make CMakeFiles/threading.dir/threading.cpp.i
+	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/threading.cpp.i
 .PHONY : threading.cpp.i
 
 threading.s: threading.cpp.s
@@ -529,8 +668,8 @@ threading.s: threading.cpp.s
 
 # target to generate assembly for a file
 threading.cpp.s:
-	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/threading.cpp.s
 	$(MAKE) -f CMakeFiles/threading.dir/build.make CMakeFiles/threading.dir/threading.cpp.s
+	$(MAKE) -f CMakeFiles/session14.dir/build.make CMakeFiles/session14.dir/threading.cpp.s
 .PHONY : threading.cpp.s
 
 threading2.o: threading2.cpp.o
@@ -569,23 +708,36 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... moarpractice"
 	@echo "... morepractice"
 	@echo "... mainlist2"
+	@echo "... string"
+	@echo "... practice"
+	@echo "... main3"
+	@echo "... threading"
 	@echo "... mainlist"
-	@echo "... rebuild_cache"
+	@echo "... poop"
 	@echo "... session14"
 	@echo "... threading2"
 	@echo "... fastthreadedloop"
 	@echo "... Account"
-	@echo "... threading"
 	@echo "... Account.o"
 	@echo "... Account.i"
 	@echo "... Account.s"
 	@echo "... Practice/List.o"
 	@echo "... Practice/List.i"
 	@echo "... Practice/List.s"
+	@echo "... Practice/StringPractice/main3.o"
+	@echo "... Practice/StringPractice/main3.i"
+	@echo "... Practice/StringPractice/main3.s"
+	@echo "... Practice/StringPractice/poop.o"
+	@echo "... Practice/StringPractice/poop.i"
+	@echo "... Practice/StringPractice/poop.s"
+	@echo "... Practice/StringPractice/string.o"
+	@echo "... Practice/StringPractice/string.i"
+	@echo "... Practice/StringPractice/string.s"
 	@echo "... Practice/mainlist.o"
 	@echo "... Practice/mainlist.i"
 	@echo "... Practice/mainlist.s"

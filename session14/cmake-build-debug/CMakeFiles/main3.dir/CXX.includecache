@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/Documents/Git/EE553/session14/Practice/StringPractice/main3.cpp
+iostream
+-
+string.h
+/Users/connordepalma/Documents/Git/EE553/session14/Practice/StringPractice/string.h
+
+/Users/connordepalma/Documents/Git/EE553/session14/Practice/StringPractice/string.h
+iostream
+-
+

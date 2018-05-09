@@ -49,92 +49,65 @@ CMAKE_SOURCE_DIR = /Users/connordepalma/Documents/Git/EE553/session14
 CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/Practice.dir/depend.make
+include CMakeFiles/practice.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/Practice.dir/progress.make
+include CMakeFiles/practice.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/Practice.dir/flags.make
+include CMakeFiles/practice.dir/flags.make
 
-CMakeFiles/Practice.dir/Practice/List.cpp.o: CMakeFiles/Practice.dir/flags.make
-CMakeFiles/Practice.dir/Practice/List.cpp.o: ../Practice/List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practice.dir/Practice/List.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/Practice/List.cpp.o -c /Users/connordepalma/Documents/Git/EE553/session14/Practice/List.cpp
+CMakeFiles/practice.dir/Practice/practice.cpp.o: CMakeFiles/practice.dir/flags.make
+CMakeFiles/practice.dir/Practice/practice.cpp.o: ../Practice/practice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practice.dir/Practice/practice.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practice.dir/Practice/practice.cpp.o -c /Users/connordepalma/Documents/Git/EE553/session14/Practice/practice.cpp
 
-CMakeFiles/Practice.dir/Practice/List.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/Practice/List.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/session14/Practice/List.cpp > CMakeFiles/Practice.dir/Practice/List.cpp.i
+CMakeFiles/practice.dir/Practice/practice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice.dir/Practice/practice.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/session14/Practice/practice.cpp > CMakeFiles/practice.dir/Practice/practice.cpp.i
 
-CMakeFiles/Practice.dir/Practice/List.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/Practice/List.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/session14/Practice/List.cpp -o CMakeFiles/Practice.dir/Practice/List.cpp.s
+CMakeFiles/practice.dir/Practice/practice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice.dir/Practice/practice.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/session14/Practice/practice.cpp -o CMakeFiles/practice.dir/Practice/practice.cpp.s
 
-CMakeFiles/Practice.dir/Practice/List.cpp.o.requires:
+CMakeFiles/practice.dir/Practice/practice.cpp.o.requires:
 
-.PHONY : CMakeFiles/Practice.dir/Practice/List.cpp.o.requires
+.PHONY : CMakeFiles/practice.dir/Practice/practice.cpp.o.requires
 
-CMakeFiles/Practice.dir/Practice/List.cpp.o.provides: CMakeFiles/Practice.dir/Practice/List.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Practice/List.cpp.o.provides.build
-.PHONY : CMakeFiles/Practice.dir/Practice/List.cpp.o.provides
+CMakeFiles/practice.dir/Practice/practice.cpp.o.provides: CMakeFiles/practice.dir/Practice/practice.cpp.o.requires
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/Practice/practice.cpp.o.provides.build
+.PHONY : CMakeFiles/practice.dir/Practice/practice.cpp.o.provides
 
-CMakeFiles/Practice.dir/Practice/List.cpp.o.provides.build: CMakeFiles/Practice.dir/Practice/List.cpp.o
-
-
-CMakeFiles/Practice.dir/Practice/mainlist.cpp.o: CMakeFiles/Practice.dir/flags.make
-CMakeFiles/Practice.dir/Practice/mainlist.cpp.o: ../Practice/mainlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practice.dir/Practice/mainlist.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/Practice/mainlist.cpp.o -c /Users/connordepalma/Documents/Git/EE553/session14/Practice/mainlist.cpp
-
-CMakeFiles/Practice.dir/Practice/mainlist.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/Practice/mainlist.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connordepalma/Documents/Git/EE553/session14/Practice/mainlist.cpp > CMakeFiles/Practice.dir/Practice/mainlist.cpp.i
-
-CMakeFiles/Practice.dir/Practice/mainlist.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/Practice/mainlist.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connordepalma/Documents/Git/EE553/session14/Practice/mainlist.cpp -o CMakeFiles/Practice.dir/Practice/mainlist.cpp.s
-
-CMakeFiles/Practice.dir/Practice/mainlist.cpp.o.requires:
-
-.PHONY : CMakeFiles/Practice.dir/Practice/mainlist.cpp.o.requires
-
-CMakeFiles/Practice.dir/Practice/mainlist.cpp.o.provides: CMakeFiles/Practice.dir/Practice/mainlist.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Practice/mainlist.cpp.o.provides.build
-.PHONY : CMakeFiles/Practice.dir/Practice/mainlist.cpp.o.provides
-
-CMakeFiles/Practice.dir/Practice/mainlist.cpp.o.provides.build: CMakeFiles/Practice.dir/Practice/mainlist.cpp.o
+CMakeFiles/practice.dir/Practice/practice.cpp.o.provides.build: CMakeFiles/practice.dir/Practice/practice.cpp.o
 
 
-# Object files for target Practice
-Practice_OBJECTS = \
-"CMakeFiles/Practice.dir/Practice/List.cpp.o" \
-"CMakeFiles/Practice.dir/Practice/mainlist.cpp.o"
+# Object files for target practice
+practice_OBJECTS = \
+"CMakeFiles/practice.dir/Practice/practice.cpp.o"
 
-# External object files for target Practice
-Practice_EXTERNAL_OBJECTS =
+# External object files for target practice
+practice_EXTERNAL_OBJECTS =
 
-Practice: CMakeFiles/Practice.dir/Practice/List.cpp.o
-Practice: CMakeFiles/Practice.dir/Practice/mainlist.cpp.o
-Practice: CMakeFiles/Practice.dir/build.make
-Practice: CMakeFiles/Practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Practice"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practice.dir/link.txt --verbose=$(VERBOSE)
+practice: CMakeFiles/practice.dir/Practice/practice.cpp.o
+practice: CMakeFiles/practice.dir/build.make
+practice: CMakeFiles/practice.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable practice"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Practice.dir/build: Practice
+CMakeFiles/practice.dir/build: practice
 
-.PHONY : CMakeFiles/Practice.dir/build
+.PHONY : CMakeFiles/practice.dir/build
 
-CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/Practice/List.cpp.o.requires
-CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/Practice/mainlist.cpp.o.requires
+CMakeFiles/practice.dir/requires: CMakeFiles/practice.dir/Practice/practice.cpp.o.requires
 
-.PHONY : CMakeFiles/Practice.dir/requires
+.PHONY : CMakeFiles/practice.dir/requires
 
-CMakeFiles/Practice.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/Practice.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/Practice.dir/clean
+CMakeFiles/practice.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/practice.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/practice.dir/clean
 
-CMakeFiles/Practice.dir/depend:
-	cd /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/connordepalma/Documents/Git/EE553/session14 /Users/connordepalma/Documents/Git/EE553/session14 /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/Practice.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/Practice.dir/depend
+CMakeFiles/practice.dir/depend:
+	cd /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/connordepalma/Documents/Git/EE553/session14 /Users/connordepalma/Documents/Git/EE553/session14 /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug /Users/connordepalma/Documents/Git/EE553/session14/cmake-build-debug/CMakeFiles/practice.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/practice.dir/depend
 

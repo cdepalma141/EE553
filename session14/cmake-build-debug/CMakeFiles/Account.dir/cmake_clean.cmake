@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Account.dir/Account.cpp.o"
+  "CMakeFiles/Account.dir/Practice/StringPractice/string.cpp.o"
   "Account.pdb"
   "Account"
 )

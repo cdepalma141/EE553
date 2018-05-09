@@ -48,7 +48,7 @@ int main(){
 
     try{
         Fraction<double> a(1.5,2);
-        Fraction<double> b(1,5);
+        Fraction<double> b(1,0);
 
         cout << a + b;
 
@@ -61,7 +61,7 @@ int main(){
 
     catch(int a){
         cout << "Divide by 0\nError " << a;
-    };
+    }
 
 
 }
